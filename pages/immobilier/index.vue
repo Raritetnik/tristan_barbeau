@@ -5,7 +5,7 @@
         <Titre>My listing</Titre>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-h-none px-16 pb-20">
-        <div v-if="pendingHouses" class="">
+        <div v-if="pending">
           <NuxtLoadingIndicator/>
         </div>
         <CardHouse v-for="house in houses['liste']" v-else :one={house}></CardHouse>
