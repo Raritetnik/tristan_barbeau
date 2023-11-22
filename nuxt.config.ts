@@ -28,7 +28,10 @@ export default defineNuxtConfig({
 
     },*/
     image: {
-        provider: 'ipx',
+        provider: 'netlify',
+        netlify: {
+            baseURl: process.env.IMAGES_URL
+        }
     },
     delayHydration: {
         mode: 'mount',
