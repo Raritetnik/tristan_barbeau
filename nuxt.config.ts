@@ -18,15 +18,15 @@ export default defineNuxtConfig({
         '@averjs/nuxt-compression',
         'nuxt-simple-sitemap'
     ],
-    nitro: {
+    /*nitro: {
         compressPublicAssets: true,
         prerender: {
-            crawlLinks: true,
+            crawlLinks: false,
             routes: ['/api/contact', '/api/evaluation', '/api/test', '/api/houses'],
             failOnError: false,
         },
 
-    },
+    },*/
     delayHydration: {
         mode: 'init',
         // enables nuxt-delay-hydration in dev mode for testing
@@ -47,4 +47,7 @@ export default defineNuxtConfig({
             ]
         },
     },
+    site: {
+        url: 'http://localhost'
+    }
 });
