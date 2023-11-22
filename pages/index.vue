@@ -12,9 +12,9 @@
             alt="Mini image"
             class="block absolute w-[120px] md:w-[200px] aspect-square bottom-0 left-0 object-cover bg-primary"
             format="webp"
-            loading="lazy"
             src="assets/images/bailey-anselme-Bkp3gLygyeA-unsplash.webp"
             width="250"
+            :placeholder="[250, 250]"
         />
       </div>
       <div class="w-full">
@@ -22,7 +22,8 @@
             alt="Banniere maison image"
             class="h-[500px] lg:h-[800px] w-full object-cover"
             height="500"
-            placeholder
+            format="webp"
+            :placeholder="[800, 500]"
             sizes="100vw md:50vw"
             src="assets/images/nataliia-kvitovska-2HKJACExHeo-unsplash.webp"
         />

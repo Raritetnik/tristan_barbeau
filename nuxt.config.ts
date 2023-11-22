@@ -38,12 +38,12 @@ export default defineNuxtConfig({
             htmlAttrs: {
                 lang: 'fr',
             },
-            title: 'Nuxt Dojo',
+            title: 'Tristan Barbeau',
             meta: [
-                {name: 'description', content: 'Everything about Nuxt 3'}
+                { name: 'description', content: 'Everything about Nuxt 3' }
             ],
             link: [
-                {rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'}
+                {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fasthand&family=Poppins:wght@400;500;600;800&display=swap'}
             ]
         },
     },
