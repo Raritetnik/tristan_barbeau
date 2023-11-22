@@ -131,6 +131,8 @@ useSeoMeta({
 input[type="text"],
 textarea,
 input[type="number"],
+input[type="tel"],
+input[type="email"],
 select {
   padding: 10px;
   color: black;
@@ -142,7 +144,9 @@ select {
   --form-background: white;
 }
 
-.formulaire input[type="text"] {
+.formulaire input[type="text"],
+.formulaire input[type="tel"],
+.formulaire input[type="email"] {
   padding: 5px 10px;
   font-size: 18px;
 }
