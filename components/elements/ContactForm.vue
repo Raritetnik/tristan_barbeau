@@ -5,7 +5,7 @@
       <h2 class="text-xl">Merci de m'avoir contacter !</h2>
       <p>Je vous rappele dès que possible !</p>
     </figure>
-    <figure :class="{ messageSent: isSent}" class="formulaire flex flex-col w-full gap-5">
+    <form v-on:submit.prevent :class="{ messageSent: isSent}" class="formulaire flex flex-col w-full gap-5" netlify>
       <div class="grid gap-6 grid-cols-2">
             <span class="flex flex-col w-full">
               <label for="prenom"
@@ -51,7 +51,7 @@
         />
       </label>
       <Button class="self-start" @click="(e) => {sendMessage(e)}">Envoyer message</Button>
-    </figure>
+    </form>
   </div>
 </template>
 <script lang="ts" setup>

@@ -7,7 +7,7 @@
           <h2 class="text-xl">Merci de m'avoir soumettre la demande d'évaluation !</h2>
           <p>Je vous rappele dès que possible !</p>
         </figure>
-        <figure :class="{ messageSent: isSent}" class="formulaire flex flex-col w-full gap-5">
+        <form v-on:submit.prevent :class="{ messageSent: isSent}" class="formulaire flex flex-col w-full gap-5" netlify>
           <span class="flex flex-col ">
             <label for="telephone"
             >Adresse de votre propriété:<br/>
@@ -33,7 +33,7 @@
               /></label>
           </span>
           <Button class="self-start" @click="(e) => {sendMessage(e)}">Envoyer message</Button>
-        </figure>
+        </form>
       </div>
     </div>
     <NuxtImg alt="Maison avec voiture" class="p-0 m-0 max-h-[700px] object-cover w-full"
