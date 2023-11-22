@@ -27,6 +27,9 @@ export default defineNuxtConfig({
         },
 
     },*/
+    image: {
+        provider: 'ipx',
+    },
     delayHydration: {
         mode: 'mount',
     },

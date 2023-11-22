@@ -5,6 +5,10 @@
   </NuxtLayout>
 </template>
 
+<script setup lang="ts">
+
+</script>
+
 <style>
 :root {
   --color_primary: #c4971c;
