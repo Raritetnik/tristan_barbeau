@@ -19,10 +19,10 @@ export default defineNuxtConfig({
         'nuxt-simple-sitemap'
     ],
     /*nitro: {
-        compressPublicAssets: true,
         prerender: {
-            crawlLinks: false,
-            routes: ['/api/contact', '/api/evaluation', '/api/test', '/api/houses'],
+            crawlLinks: true,
+            routes: ['/**'],
+            ignore: ['/api/contact', '/api/evaluation', '/api/test', '/api/houses', '/immobilier'],
             failOnError: false,
         },
 

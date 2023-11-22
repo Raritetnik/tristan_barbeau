@@ -108,10 +108,6 @@
             <td>{{ CADollar.format(versementMensuel) }}</td>
           </tr>
           <tr class="">
-            <td>Remboursement anticipé</td>
-            <td>--</td>
-          </tr>
-          <tr class="">
             <td>Paiement de capital</td>
             <td>{{ CADollar.format(paiementCapital) }}</td>
           </tr>
