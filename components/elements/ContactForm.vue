@@ -88,7 +88,7 @@ const sendMessage = async (e: any) => {
   dispos = checkedItems.value.toString();
 
 
-  await fetch("http://localhost:3020/mailContact", {
+  await fetch("https://profound-tapioca-02197b.netlify.app/api/contact", {
     method: 'POST',
     headers: {
       'Accept': 'application/json',

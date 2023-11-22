@@ -57,7 +57,7 @@ const sendMessage = (e: any) => {
   const form = document.querySelector('.formulaire');
   isSent.value = !isSent.value;
 
-  /*fetch("http://localhost:3020/mailEvaluation", {
+  fetch("https://profound-tapioca-02197b.netlify.app/api/evaluation", {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
@@ -70,7 +70,7 @@ const sendMessage = (e: any) => {
       adresse: adresse,
     })
   }).then(res => res.json())
-      .then(res => console.log(res));*/
+      .then(res => console.log(res));
 }
 </script>
 
