@@ -20,13 +20,8 @@ export default defineNuxtConfig({
         },
 
     },
-    server: {
-        port: 3000, // Adjust the port as needed
-    },
+    runtimeConfig: {
 
-    functions: {
-        // Add your API routes here
-        fetchData: 'functions/fetchData.ts', // Example path, adjust accordingly
     },
     routeRules: {
         '/api/**': {isr: true, cors: true, headers: {'access-control-allow-methods': 'GET, POST'}},
