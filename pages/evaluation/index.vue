@@ -54,7 +54,6 @@ let adresse = "";
 
 let isSent = ref(false);
 const sendMessage = (e: any) => {
-  const form = document.querySelector('.formulaire');
   isSent.value = !isSent.value;
 
   fetch("https://profound-tapioca-02197b.netlify.app/api/evaluation", {
