@@ -1,4 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// @ts-ignore
+// @ts-ignore
+// @ts-ignore
 export default defineNuxtConfig({
     devtools: {enabled: true},
     postcss: {
@@ -7,26 +10,23 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
-    modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "nuxt-delay-hydration",
-        "@nuxt-modules/compression", "@averjs/nuxt-compression", "nuxt-simple-sitemap"],
-
+    modules: [
+        '@nuxtjs/tailwindcss',
+        '@nuxt/image',
+        'nuxt-delay-hydration',
+        '@nuxt-modules/compression',
+        '@averjs/nuxt-compression',
+        'nuxt-simple-sitemap'
+    ],
     nitro: {
         compressPublicAssets: true,
         prerender: {
             crawlLinks: true,
             routes: ['/api/contact', '/api/evaluation', '/api/test', '/api/houses'],
-            ignore: ['/api/houses'],
             failOnError: false,
         },
 
     },
-    runtimeConfig: {
-
-    },
-    routeRules: {
-        '/api/**': {isr: true, cors: true, headers: {'access-control-allow-methods': 'GET, POST'}},
-    },
-
     delayHydration: {
         mode: 'init',
         // enables nuxt-delay-hydration in dev mode for testing
@@ -38,10 +38,13 @@ export default defineNuxtConfig({
             htmlAttrs: {
                 lang: 'fr',
             },
+            title: 'Nuxt Dojo',
+            meta: [
+                {name: 'description', content: 'Everything about Nuxt 3'}
+            ],
+            link: [
+                {rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'}
+            ]
         },
     },
-    site: {
-        url: "http://192.168.50.245:3000"
-
-    }
-})
+});

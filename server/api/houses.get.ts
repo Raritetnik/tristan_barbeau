@@ -2,7 +2,6 @@ import data from '@/assets/data/house.json'
 
 export default defineEventHandler(async (event) => {
     const query = getQuery(event)
-    console.log(query);
     let listHouses = data.liste;
     let pageNumber = Number(query.page !== undefined ? query.page : 1);
     let pageListHouses = listHouses.slice(16 * (pageNumber - 1), 16 * pageNumber);
