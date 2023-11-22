@@ -9,9 +9,11 @@
           <NuxtLink to="/contact"><Button class="self-end">Contactez-moi</Button></NuxtLink>
         </span>
         <NuxtImg
+            preload
             alt="Mini image"
             class="block absolute w-[120px] md:w-[200px] aspect-square bottom-0 left-0 object-cover bg-primary"
             format="webp"
+            loading="lazy"
             src="assets/images/bailey-anselme-Bkp3gLygyeA-unsplash.webp"
             width="250"
             :placeholder="[250, 250]"
@@ -21,7 +23,7 @@
         <NuxtImg
             alt="Banniere maison image"
             class="h-[500px] lg:h-[800px] w-full object-cover"
-            height="500"
+            width="800"
             format="webp"
             :placeholder="[800, 500]"
             sizes="100vw md:50vw"
@@ -34,12 +36,14 @@
   <!-- A propos -->
   <Section>
     <div class="w-full mt-10 lg:mt-0">
-      <LazyNuxtImg
+      <NuxtImg
           alt="Banniere maison image"
           class="h-[500px] lg:h-[800px] w-full object-cover"
-          loading="lazy"
           src="assets/images/5.webp"
-          width="1356"
+          format="webp"
+          loading="lazy"
+          width="800"
+          :placeholder="[800, 500]"
       />
     </div>
     <div
@@ -74,8 +78,9 @@
   >
     <div class="flex flex-col md:flex-row justify-center w-full h-full items-center py-[120px]">
       <div class="flex flex-col items-center text-white">
-        <LazyNuxtImg
+        <NuxtImg
             alt="Tristan image profile"
+            loading="lazy"
             class="w-52 aspect-square object-cover border-2 border-black rounded-full"
             src="assets/images/Tristan_Barbeau-_web.webp"
             width="1356"
@@ -99,8 +104,9 @@
       </div>
     </div>
     <div class="w-full p-8 flex justify-center">
-      <LazyNuxtImg
+      <NuxtImg
           alt="Banniere maison image"
+          loading="lazy"
           class="h-[500px] aspect-square object-cover border-[#C4971C] border-2"
           src="assets/images/house_luxy.webp"
           width="1356"

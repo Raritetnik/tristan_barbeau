@@ -83,11 +83,12 @@ let dispos = '';
 
 let products = ref(null);
 let isSent = ref(false);
-const sendMessage = (e: any) => {
-  const form = document.querySelector('.formulaire');
+const sendMessage = async (e: any) => {
   isSent.value = !isSent.value;
   dispos = checkedItems.value.toString();
-  fetch("http://localhost:3020/mailContact", {
+
+
+  await fetch("http://localhost:3020/mailContact", {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
