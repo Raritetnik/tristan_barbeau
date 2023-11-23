@@ -22,9 +22,6 @@ export default {
       type: Object,
       default: {}
     },
-    mounted() {
-
-    },
     methods: {}
   },
 }

@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       },
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/image', 'nuxt-delay-hydration', '@nuxt-modules/compression', '@averjs/nuxt-compression', 'nuxt-simple-sitemap', '@nuxtjs/prismic'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/image', 'nuxt-delay-hydration', '@nuxt-modules/compression', '@averjs/nuxt-compression', 'nuxt-simple-sitemap'],
 
   /*nitro: {
       prerender: {
