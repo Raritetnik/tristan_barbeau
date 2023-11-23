@@ -18,10 +18,10 @@
         </div>
       </figure>
       <div class="grid lg:grid-cols-2 gap-2 ">
-        <NuxtImg loading="lazy"
-                 :src="house['imageURL'][0]" class="object-cover w-full min-h-full" />
+        <img loading="lazy"
+                 :src="house['imageURL'][0]" class="object-cover w-full min-h-full" alt="Primary image" />
         <div class="grid  grid-cols-2 grid-rows-2 gap-2">
-          <NuxtImg v-for="image in house['imageURL'].slice(1,5)" loading="lazy" :placeholder="[600, 400]" class="object-cover w-full" :src="image" />
+          <img v-for="image in house['imageURL'].slice(1,5)" loading="lazy" class="object-cover w-full" :src="image" alt="Secondary image" />
         </div>
       </div>
     </div>
@@ -49,6 +49,14 @@ const {pending, data: house } = await useLazyAsyncData('house', () => $fetch('/a
     houseId: code,
   }
 }));
+
+/*
+<NuxtImg loading="lazy"
+                 :src="house['imageURL'][0]" class="object-cover w-full min-h-full" />
+        <div class="grid  grid-cols-2 grid-rows-2 gap-2">
+          <NuxtImg v-for="image in house['imageURL'].slice(1,5)" loading="lazy" :placeholder="[600, 400]" class="object-cover w-full" :src="image" />
+        </div>
+ */
 
 const infoToDisplay = [
   {name: "Use of property", link: "code"},
