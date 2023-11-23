@@ -24,7 +24,7 @@ export default defineNuxtConfig({
 
   },*/
   image: {
-      //provider: 'netlify',
+      provider: 'fastly',
       fastly: {
           baseURL: 'https://www.fastly.io'
       }
