@@ -24,10 +24,10 @@ export default defineNuxtConfig({
 
   },*/
   image: {
-      provider: 'fastly',
-      fastly: {
-          baseURL: 'https://www.fastly.io'
-      }
+      provider: 'netlify',
+      netlify: {
+          baseURl: process.env.IMAGES_URL
+      },
   },
 
   delayHydration: {
