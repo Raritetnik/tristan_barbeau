@@ -21,18 +21,17 @@ export default defineNuxtConfig({
     /*nitro: {
         prerender: {
             crawlLinks: true,
-            routes: ['/**'],
-            ignore: ['/api/contact', '/api/evaluation', '/api/test', '/api/houses', '/immobilier'],
+            routes: ['/','/**'],
+            ignore: ['/api/**' '/immobilier'],
             failOnError: false,
         },
 
     },*/
     image: {
-        provider: 'ipx',
-        /*provider: 'netlify',
+        provider: 'netlify',
         netlify: {
             baseURl: process.env.IMAGES_URL
-        }*/
+        }
     },
     delayHydration: {
         mode: 'mount',
