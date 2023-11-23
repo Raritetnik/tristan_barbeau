@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       },
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/image', 'nuxt-delay-hydration', '@nuxt-modules/compression', '@averjs/nuxt-compression', 'nuxt-simple-sitemap'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/image', 'nuxt-delay-hydration', '@nuxt-modules/compression', '@averjs/nuxt-compression', 'nuxt-simple-sitemap', '@nuxtjs/strapi'],
 
   /*nitro: {
       prerender: {
@@ -21,7 +21,6 @@ export default defineNuxtConfig({
           ignore: ['/api/**' '/immobilier'],
           failOnError: false,
       },
-
   },*/
   image: {
       provider: 'netlify',
@@ -29,7 +28,13 @@ export default defineNuxtConfig({
           baseURl: process.env.IMAGES_URL
       },
   },
-
+  strapi: {
+    url: process.env.STRAPI_URL || 'http://localhost:1337',
+    prefix: '/api',
+    version: 'v4',
+    cookie: {},
+    cookieName: 'strapi_jwt'
+  },
   delayHydration: {
       mode: 'mount',
   },
