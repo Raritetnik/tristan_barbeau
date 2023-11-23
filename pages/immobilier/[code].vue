@@ -18,11 +18,11 @@
         </div>
       </figure>
       <div class="grid lg:grid-cols-2 gap-2 ">
-        <img
+        <NuxtImg
                  loading="lazy"
                  :src="house['imageURL'][0]" class="object-cover w-full min-h-full" />
         <div class="grid  grid-cols-2 grid-rows-2 gap-2">
-          <img v-for="image in house['imageURL'].slice(1,5)" loading="lazy" :placeholder="[600, 400]" class="object-cover w-full" :src="image" />
+          <NuxtImg v-for="image in house['imageURL'].slice(1,5)" loading="lazy" :placeholder="[600, 400]" class="object-cover w-full" :src="image" />
         </div>
       </div>
     </div>
