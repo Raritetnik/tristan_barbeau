@@ -5,7 +5,7 @@
     </div>
     <div v-else >
       <Section>
-        <div class="py-20 px-8">
+        <div class="pt-20 px-8">
           <figure class="grid grid-cols-4 w-full">
             <div class="col-span-3 bg-white py-3 px-6 flex justify-between">
               <span>
@@ -22,7 +22,7 @@
           <div class="grid lg:grid-cols-2 gap-2" @click="e => openImageLightbox(e)">
             <img loading="lazy"
                      :src="house['imageURL'][0]" class="object-cover w-full min-h-full aspect-[6/4]" alt="Primary image" />
-            <div class="grid  grid-cols-2 grid-rows-2 gap-2">
+            <div class="grid grid-cols-2 lg:grid-rows-2 gap-2">
               <img v-if="house['imageURL'].length >= 2" v-for="image in house['imageURL'].slice(1,5)" loading="lazy" class="object-cover w-full" :src="image" alt="Secondary image" />
             </div>
           </div>
