@@ -34,8 +34,8 @@
                   /></label>
               </span>
         </div>
-        <div class="flex gap-6 ">
-              <span class="grid grid-cols-2 md:flex gap-4 md:flex-row">
+        <div class="flex gap-6 w-full">
+              <span class="grid grid-cols-2 lg:grid-cols-4 gap-4">
                 <label v-for="item in listeDispos" :for="item.id" class="form-control"
                 ><input :id="item.id" v-model="checkedItems" :name="item.id" :value="item.titre" type="checkbox"/>
                   {{ item.titre }}</label>
