@@ -1,4 +1,5 @@
 <template>
+  <div>
   <Section class="">
     <div class=" py-8 w-full flex flex-col items-center text-white justify-center">
       <div class="p-8 flex flex-col gap-4">
@@ -40,11 +41,18 @@
              src="assets/images/jane-palash-KnXDtTbcZ8g-unsplash.webp"
              width="1356"/>
   </Section>
+  </div>
 </template>
 <script lang="ts" setup>
 import Section from "~/components/elements/Section.vue";
 import Titre from "~/components/elements/Titre.vue";
 import Button from "~/components/elements/Button.vue";
+
+useSeoMeta({
+  title: "Obtenez une évaluation rapide de votre propriété | Tristan Barbeau",
+  description: "Les services professionnels proposés par le courtier immobilier Tristan Barbeau. " +
+      "Touts ce qui est associé aux processus d'achat, de vente et de location de biens immobiliers."
+});
 
 let nom = "";
 let email = '';

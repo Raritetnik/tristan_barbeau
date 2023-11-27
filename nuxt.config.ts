@@ -40,26 +40,27 @@ export default defineNuxtConfig({
   },
 
   app: {
-      //pageTransition: {name: 'page', mode: 'out-in'},
       head: {
           htmlAttrs: {
               lang: 'fr',
           },
           title: 'Tristan Barbeau',
           meta: [
-              { name: 'description', content: 'Everything about Nuxt 3' }
+              { charset: "utf-8" },
+              { name: "viewport", content: "width=device-width, initial-scale=1" },
+              { hid: "description", name: "description", content: "" },
+              { name: "format-detection", content: "telephone=no" },
           ],
           link: [
-              {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fasthand&family=Poppins:wght@400;500;600;800&display=swap'}
+              { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fasthand&family=Poppins:wght@400;500;600;800&display=swap'}
           ]
       },
+      pageTransition: { name: 'page', mode: 'out-in' },
   },
+    components: true,
 
   site: {
       url: 'http://localhost'
   },
 
-  prismic: {
-    endpoint: 'tristan-barbeau'
-  }
 });

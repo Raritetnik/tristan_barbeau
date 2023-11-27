@@ -1,4 +1,5 @@
 <template>
+  <div>
   <Section class="py-[60px]">
     <div class="border-primary border-2 flex flex-col lg:flex-row">
       <figure class=" lg:max-w-[500px] m-16">
@@ -124,12 +125,20 @@
       </div>
     </div>
   </Section>
+  </div>
 </template>
 <script lang="ts" setup>
 import Section from "~/components/elements/Section.vue";
 import Button from "~/components/elements/Button.vue";
 import Titre from "~/components/elements/Titre.vue";
 import {ref} from "vue";
+
+useSeoMeta({
+  title: "Obtenez une calcul approximative sur votre prêt hypothécaire | Tristan Barbeau",
+  description: "Les services professionnels proposés par le courtier immobilier Tristan Barbeau. " +
+      "Touts ce qui est associé aux processus d'achat, de vente et de location de biens immobiliers."
+});
+
 
 let termes = [2, 3, 4, 5, 6, 7, 8, 9, 10];
 let mois = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];

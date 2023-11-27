@@ -1,4 +1,5 @@
 <template>
+  <div>
   <Section class="min-h-[500px]">
     <div class="flex flex-col justify-center w-full">
       <div class="flex justify-between w-full px-8 pt-20 pb-8">
@@ -25,12 +26,19 @@
       </div>
     </div>
   </Section>
+  </div>
 </template>
 <script lang="ts" setup>
 import Section from "~/components/elements/Section.vue";
 import Titre from "~/components/elements/Titre.vue";
 import CardHouse from "~/components/elements/CardHouse.vue";
 import Button from "~/components/elements/Button.vue";
+
+useSeoMeta({
+  title: "L'immobilier qui pourra vous intéresser ! | Tristan Barbeau",
+  description: "Les services professionnels proposés par le courtier immobilier Tristan Barbeau. " +
+      "Touts ce qui est associé aux processus d'achat, de vente et de location de biens immobiliers."
+});
 
 const route = useRoute();
 const numberOfPages = ref(5);
