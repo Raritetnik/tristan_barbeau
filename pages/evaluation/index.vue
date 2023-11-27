@@ -10,9 +10,9 @@
         </figure>
         <form v-on:submit.prevent :class="{ messageSent: isSent}" class="formulaire flex flex-col w-full gap-5" netlify>
           <span class="flex flex-col ">
-            <label for="telephone"
+            <label for="adresse"
             >Adresse de votre propriété:<br/>
-              <input id="telephone" v-model="adresse" class="w-full" name="telephone" type="text"
+              <input id="adresse" v-model="adresse" class="w-full" name="adresse" type="text"
               /></label>
           </span>
           <span class="flex flex-col ">
