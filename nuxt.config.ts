@@ -18,7 +18,7 @@ export default defineNuxtConfig({
       prerender: {
           crawlLinks: true,
           routes: ['/','/**'],
-          ignore: ['/api/**' '/immobilier'],
+          ignore: ['/api/**', '/immobilier'],
           failOnError: false,
       },
   },*/
@@ -48,7 +48,7 @@ export default defineNuxtConfig({
           meta: [
               { charset: "utf-8" },
               { name: "viewport", content: "width=device-width, initial-scale=1" },
-              { hid: "description", name: "description", content: "" },
+              { hid: "description", name: "description", content: "Les services professionnels proposés par le courtier immobilier Tristan Barbeau. Touts ce qui est associé aux processus d'achat, de vente et de location de biens immobiliers." },
               { name: "format-detection", content: "telephone=no" },
           ],
           link: [
@@ -62,5 +62,13 @@ export default defineNuxtConfig({
   site: {
       url: 'http://localhost'
   },
+    routeRules: {
+        // Homepage pre-rendered at build time
+        '/': { prerender: true },
+        '/a-propos': { prerender: true },
+        '/contact': { prerender: true },
+        '/calculatrice': { prerender: true },
+        '/evaluation': { prerender: true },
+    }
 
 });
