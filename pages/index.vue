@@ -12,11 +12,11 @@
         <NuxtImg
             preload
             alt="Mini image"
-            class="block absolute w-[120px] md:w-[200px] aspect-square bottom-0 left-0 object-cover bg-primary"
+            class="block absolute md:w-[200px] aspect-square bottom-0 left-0 object-cover bg-primary"
             format="webp"
             loading="lazy"
             src="assets/images/bailey-anselme-Bkp3gLygyeA-unsplash.webp"
-            width="250"
+            width="120"
             :placeholder="[250, 250]"
         />
       </div>
@@ -24,10 +24,10 @@
         <NuxtImg
             alt="Banniere maison image"
             class="h-[500px] lg:h-[800px] w-full object-cover"
-            width="800"
             format="webp"
+            width="800"
+            height="500"
             :placeholder="[800, 500]"
-            sizes="100vw md:50vw"
             src="assets/images/nataliia-kvitovska-2HKJACExHeo-unsplash.webp"
         />
       </div>
@@ -44,6 +44,7 @@
           format="webp"
           loading="lazy"
           width="800"
+          height="500"
           :placeholder="[800, 500]"
       />
     </div>
@@ -84,7 +85,8 @@
             loading="lazy"
             class="w-52 aspect-square object-cover border-2 border-black rounded-full"
             src="assets/images/Tristan_Barbeau-_web.webp"
-            width="1356"
+            width="200"
+            height="200"
         />
         <h2 class="text-[8rem] leading-none m-0 hidden md:block">+</h2>
       </div>
@@ -110,7 +112,8 @@
           loading="lazy"
           class="h-[300px] lg:h-[500px] aspect-square object-cover border-[#C4971C] border-2"
           src="assets/images/house_luxy.webp"
-          width="1356"
+          width="800"
+          height="300"
       />
     </div>
   </Section>
