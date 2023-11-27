@@ -4,8 +4,8 @@ defineEmits(['update:isClosed', 'update:closeMenu']);
 
 const menuList = [
   {option: "Accueil", lien: '/'},
-  {option: "À propos", lien: '/a-propos'},
-  {option: "Évaluation maison", lien: '/evaluation'},
+  {option: "Biographie", lien: '/a-propos'},
+  {option: "Estimation", lien: '/evaluation'},
   {option: "Contact", lien: '/contact'},
   {option: "Calculatrice", lien: '/calculatrice'},
   {option: "Immobiliére", lien: '/immobilier'},
