@@ -50,6 +50,7 @@
               name="message"
           />
         </label>
+        <input type="text" v-model="honeypot" name="honeypot" style="display:none">
         <Button class="self-start" @click="(e) => {sendMessage(e)}">Envoyer message</Button>
       </form>
   </div>
@@ -79,6 +80,7 @@ let email = '';
 let message = "";
 let phone = "";
 let dispos = '';
+let honeypot = '';
 
 
 let products = ref(null);
@@ -100,6 +102,7 @@ const sendMessage = async (e: any) => {
       name: prenom + ' ' + nom,
       phone: phone,
       dispos: dispos,
+      honeypot: honeypot,
     })
   }).then(res => res.json())
       .then(res => console.log(res));

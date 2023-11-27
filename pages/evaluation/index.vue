@@ -33,6 +33,7 @@
               <input id="courriel" v-model="email" class="w-full" name="courriel" type="text"
               /></label>
           </span>
+          <input type="text" v-model="honeypot" name="honeypot" style="display:none">
           <Button class="self-start" @click="(e) => {sendMessage(e)}">Envoyer message</Button>
         </form>
       </div>
@@ -58,6 +59,7 @@ let nom = "";
 let email = '';
 let phone = "";
 let adresse = "";
+let honeypot = "";
 
 
 let isSent = ref(false);
@@ -75,6 +77,7 @@ const sendMessage = (e: any) => {
       name: nom,
       phone: phone,
       adresse: adresse,
+      honeypot: honeypot,
     })
   }).then(res => res.json())
       .then(res => console.log(res));
