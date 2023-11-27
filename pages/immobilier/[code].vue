@@ -62,8 +62,6 @@ import Section from "~/components/elements/Section.vue";
 import Titre from "~/components/elements/Titre.vue";
 import Button from "~/components/elements/Button.vue";
 
-console.log('~~~ Execute start page setup ~~~')
-
 var lightBoxUrl = ref('');
 var isClosed = ref(true);
 const { code } = useRoute().params;
@@ -72,7 +70,6 @@ const {pending, data: house } = await useLazyAsyncData('house', () => $fetch('/a
     houseId: code,
   }
 }).then(jsonData => {
-  console.log('~~~ Request was made ~~~')
   lightBoxUrl.value = jsonData['imageURL'][0];
   return jsonData}));
 
