@@ -14,6 +14,7 @@
           class="self-center border-2 border-primary rounded-full translate-y-20"
           src="assets/images/tristan_profil.webp"
           width="250"
+          height="250"
       />
       <div class="bg-white px-14 pt-32 pb-24">
         <h2 class="text-3xl pb-5 text-black">Tristan Barbeau</h2>
