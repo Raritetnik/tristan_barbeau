@@ -20,7 +20,7 @@ export default class Mail {
         });
     }
 
-    async sendContact(receive, message, name, phone = '', dispos = '') {
+    async sendContact(receive, message, name, phone = '', dispos = '', action = 'Acheter') {
         try {
             const info = await this.#transporter.sendMail({
                 from: 'lesurvivaliste@outlook.com',
@@ -32,7 +32,7 @@ export default class Mail {
                     <p>Courriel: ${receive}</p>
                     <p>Téléphone: ${phone}</p>
                     <p>Disponibilités:${dispos}</p>
-                    <h2>Message:</h2>
+                    <h2>Message pour <b><i>${action}</i></b>:</h2>
                     <p>${message}</p>`,
             });
             return info.messageId;

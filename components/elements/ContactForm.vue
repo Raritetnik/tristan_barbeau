@@ -34,12 +34,24 @@
                   /></label>
               </span>
         </div>
-        <div class="flex gap-6 w-full">
-              <span class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-                <label v-for="item in listeDispos" :for="item.id" class="form-control"
-                ><input :id="item.id" v-model="checkedItems" :name="item.id" :value="item.titre" type="checkbox"/>
-                  {{ item.titre }}</label>
-              </span>
+        <div class="grid grid-cols-1 md:grid-cols-3 w-full">
+          <div class="flex flex-col gap-2 border-e-2 border-primary col-span-2">
+            <span>Disponibilités</span>
+            <span class="grid grid-cols-2 gap-4">
+              <label v-for="item in listeDispos" :for="item.id" class="form-control"
+              ><input :id="item.id" v-model="checkedItems" :name="item.id" :value="item.titre" type="checkbox"/>
+                {{ item.titre }}</label>
+            </span>
+          </div>
+          <div class="flex flex-col gap-2 px-4 col-span-1">
+            <span>Vous chercher à...</span>
+            <span class="grid grid-cols-1 gap-4">
+              <label class="form-control"
+              ><input v-model="checkedItems" :name="action" type="radio" value="Acheter"/> Acheter</label>
+              <label class="form-control"
+              ><input v-model="checkedItems" :name="action" type="radio" value="Vendre"/> Vendre</label>
+            </span>
+          </div>
         </div>
         <label for="message"
         >Message: <br/>
@@ -69,7 +81,7 @@ const listeDispos = [{
   titre: 'Soir',
   id: 'soirDisp'
 }, {
-  titre: 'Fin de semaine',
+  titre: 'Fin semaine',
   id: 'finSemDisp'
 },]
 
@@ -81,6 +93,7 @@ let message = "";
 let phone = "";
 let dispos = '';
 let honeypot = '';
+let action = '';
 
 
 let products = ref(null);
@@ -103,6 +116,7 @@ const sendMessage = async (e: any) => {
       phone: phone,
       dispos: dispos,
       honeypot: honeypot,
+      action: action,
     })
   }).then(res => res.json())
       .then(res => console.log(res));
