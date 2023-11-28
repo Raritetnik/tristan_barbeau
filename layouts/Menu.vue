@@ -4,18 +4,18 @@ defineEmits(['update:isClosed', 'update:closeMenu']);
 
 const menuList = [
   {option: "Accueil", lien: '/'},
-  {option: "À propos", lien: '/a-propos'},
+  {option: "Proprietés", lien: '/proprietes'},
   {option: "Evaluez votre maison", lien: '/evaluation'},
   {option: "Contact", lien: '/contact'},
   {option: "Calculatrice", lien: '/calculatrice'},
-  {option: "Proprietés", lien: '/proprietes'},
+  {option: "À propos", lien: '/a-propos'},
 ]
 </script>
 accueil, proprietés, contact, evaluez votre maison, calculatrice, à propos
 <template>
   <nav :class="{ closeMenu: isClosed, openMenu: !isClosed }"
        class="menu z-[2] flex flex-col justify-center lg:absolute lg:-translate-y-1/2 lg:left-1/2 lg:-translate-x-1/2">
-    <ul class="flex flex-col lg:flex-row lg:justify-between text-black text-center items-center uppercase whitespace-nowrap text-[16px]">
+    <ul class="flex flex-col lg:flex-row lg:justify-between text-black font-[500] text-center items-center uppercase whitespace-nowrap text-[16px]">
       <li v-for="option in menuList" class="link">
         <NuxtLink :to="option.lien" class="lg:h-[60px] px-.5 lg:flex lg:items-center lg:justify-center"
                   @click="closeMenu()">{{ option.option }}
