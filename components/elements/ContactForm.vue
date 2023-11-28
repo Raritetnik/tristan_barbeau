@@ -1,6 +1,6 @@
 <template>
   <div class="p-8 flex flex-col gap-4 w-full">
-    <Titre>Contactez-moi</Titre>
+    <Titre>Quel est la valeur de ma maison?</Titre>
       <figure :class="{ messageSent: !isSent}" class="flex flex-col justify-center text-center">
         <h2 class="text-xl">Merci de m'avoir contacter !</h2>
         <p>Je vous rappele dès que possible !</p>

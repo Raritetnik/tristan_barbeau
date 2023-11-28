@@ -94,9 +94,9 @@
         <table class="calcApercu w-full">
           <thead>
           <tr class="w-full">
-            <th class="w-1/3 bg-primary font-bold text-left">Catégorie</th>
+            <th class="w-1/3 bg-primary font-[600] text-left">Catégorie</th>
 
-            <td class="w-1/3 bg-primary font-bold">Période d’amortissement</td>
+            <td class="w-1/3 bg-primary font-[600]">Période d’amortissement</td>
           </tr>
           </thead>
           <tbody>
@@ -140,10 +140,10 @@ useSeoMeta({
 });
 
 
-let termes = [2, 3, 4, 5, 6, 7, 8, 9, 10];
 let mois = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 let annees = [
-  2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+  13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
   23, 24, 25, 26, 27, 28, 29, 30,
 ];
 

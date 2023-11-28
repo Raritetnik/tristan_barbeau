@@ -5,9 +5,9 @@
     </div>
     <div v-else >
       <Section>
-        <div class="pt-20 px-8">
-          <figure class="grid grid-cols-4 w-full">
-            <div class="col-span-3 bg-white py-3 px-6 flex justify-between">
+        <div class="pt-20 px-8 flex flex-col">
+          <figure class="grid grid-cols-4 w-full relative">
+            <div class="col-span-3 bg-white py-3 px-6 flex justify-between border-[1px] border-primary">
               <span>
                 <h2 class="text-black text-2xl">{{ house['Type'] }}</h2>
                 <p class="text-gray-800" >{{house['Address'] }}</p>
@@ -15,24 +15,33 @@
               </span>
               <h2 class="text-primary text-3xl">{{ house['Active price'].toLocaleString('fr-CA', { style: 'currency', currency: 'CAD'}) }}</h2>
             </div>
-            <NuxtLink to="/contact" class="col-span-1 bg-primary flex items-center justify-center py-3 px-6">
-              <button>Contact Tristan Barbeau &#8599</button>
-            </NuxtLink>
+            <div @click="openContactMenu" class="col-span-1 bg-[#E4E4E4] flex gap-2 items-center justify-between py-3 px-6 border-primary border-[1px] cursor-pointer relative">
+              <button class="text-primary text-bold">Contact Tristan Barbeau</button>
+              <img src="/assets/images/_.png" alt="arrow down" class="arrow" :class="{rotateArrow: isDropped}">
+            </div>
+            <div :class="{contactMenuIsOpen: isDropped}" class="contactMenu absolute top-full right-0 bg-white">
+              <ul class="text-black contMenu text-right">
+                <li class="px-6 py-2"><NuxtLink to="#">Menu ggg</NuxtLink></li>
+                <li class="px-6 py-2"><NuxtLink to="#">Menu fsdfh</NuxtLink></li>
+                <li class="px-6 py-2"><NuxtLink to="#">Menu kdis</NuxtLink></li>
+                <li class="px-6 py-2"><NuxtLink to="#">Menu dfssdg</NuxtLink></li>
+              </ul>
+            </div>
           </figure>
           <div class="grid lg:grid-cols-2 gap-2" @click="e => openImageLightbox(e)">
             <img loading="lazy"
-                     :src="house['imageURL'][0]" class="object-cover w-full min-h-full aspect-[6/4]" alt="Primary image" />
+                     :src="house['imageURL'][0]" class="border-[1px] border-primary object-cover w-full min-h-full aspect-[6/4]" alt="Primary image" />
             <div class="grid grid-cols-2 lg:grid-rows-2 gap-2">
-              <img v-if="house['imageURL'].length >= 2" v-for="image in house['imageURL'].slice(1,5)" loading="lazy" class="object-cover w-full" :src="image" alt="Secondary image" />
+              <img v-if="house['imageURL'].length >= 2" v-for="image in house['imageURL'].slice(1,5)" loading="lazy" class="border-[1px] border-primary object-cover w-full" :src="image" alt="Secondary image" />
             </div>
           </div>
+          <Button class="self-end mt-4">Voir sur site Centris</Button>
         </div>
       </Section>
       <Section class="max-h-none">
-        <div class="w-full px-8 py-20">
+        <div class="w-full px-8 pb-20">
           <span class="flex justify-between items-center mb-6">
           <Titre>Features</Titre>
-          <Button>Voir sur site Centris</Button>
             </span>
           <div class="grid grid-cols-2 md:grid-cols-4 h-full gap-x-12">
             <span v-for="info in infoToDisplay">
@@ -71,6 +80,7 @@ useSeoMeta({
 var lightBoxUrl = ref('');
 var isClosed = ref(true);
 const { code } = useRoute().params;
+let isDropped = ref(true);
 const {pending, data: house } = await useLazyAsyncData('house', () => $fetch('/api/house', {
   params: {
     houseId: code,
@@ -106,6 +116,9 @@ const openImageLightbox = (e: any) => {
   isClosed.value = false;
 }
 
+const openContactMenu = () => {
+  isDropped.value = !isDropped.value;
+}
 const closeLightBox = () => {
   isClosed.value = true;
 }
@@ -116,4 +129,30 @@ const closeLightBox = () => {
 .close {
   display: none !important;
 }
+
+.contMenu li{
+  color: black;
+}
+.contMenu li:hover{
+  background-color: #c4971c;
+  color: white;
+}
+
+.contactMenuIsOpen {
+  transform: scaleY(0);
+}
+
+.contactMenu {
+  transition: all .2s linear;
+  transform-origin: top right;
+}
+
+.rotateArrow {
+  transform: rotate(180deg);
+}
+
+.arrow {
+  transition: all .2s linear;
+}
+
 </style>

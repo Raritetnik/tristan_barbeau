@@ -13,7 +13,7 @@
         <h2 class="text-2xl pb-3 uppercase">Contact</h2>
         <p>3611 autoroute Laval Ouest</p>
         <p>Laval, H7P 5P6, QC</p>
-        <p>(450) 978-2582</p>
+        <p>(514) 706 5569</p>
       </div>
       <div class="flex flex-col border-s-2 border-primary px-6">
         <h2 class="text-2xl pb-3 uppercase">Liens</h2>

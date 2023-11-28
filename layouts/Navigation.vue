@@ -19,7 +19,7 @@ import Button from "~/components/elements/Button.vue";
         </svg>
       </button>
       <h2 class="hidden lg:inline-block bg-white rounded-full py-2 px-6 lg:me-4 border-black border-2 text-black text-lg lg:text-xl">
-        514-555-2525</h2>
+        (514) 706 5569</h2>
     </div>
     <!-- Menu Bar -->
     <Menu v-model:close-menu="closeMenu" v-model:is-closed="isClosed"></Menu>

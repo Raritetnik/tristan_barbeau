@@ -5,14 +5,14 @@
       <div class="flex justify-between w-full px-8 pt-20 pb-8">
         <Titre>My listing</Titre>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-h-none px-16 pb-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-h-none px-16 pb-20 appearsBlocks">
         <div v-if="pending">
           <NuxtLoadingIndicator/>
         </div>
-        <CardHouse v-for="house in houses['liste']" v-else :one={house}></CardHouse>
+        <CardHouse v-for="house in houses['liste']" v-else class="transition-all" :one={house}></CardHouse>
       </div>
       <div class="flex flex-wrap max-w-4xl justify-center items-center gap-4 mb-10 self-center">
-        <div v-if="pending" class="">
+        <div v-if="pending">
           <NuxtLoadingIndicator/>
         </div>
         <NuxtLink v-for="option in houses['pages']" v-else
@@ -60,5 +60,9 @@ function changePage(num: number) {
 <style scoped>
 .activePage {
   background-color: #959495 !important;
+}
+
+.appearsBlocks {
+  transition: all .2s linear;
 }
 </style>

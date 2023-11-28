@@ -9,7 +9,7 @@
           <h2 class="text-2xl">Courtier immobilier résidentiel</h2>
           <NuxtLink to="/contact"><Button class="self-end">Contactez-moi</Button></NuxtLink>
         </span>
-        <NuxtImg
+        <!--<NuxtImg
             preload
             alt="Mini image"
             class="block absolute md:w-[200px] aspect-square bottom-0 left-0 object-cover bg-primary"
@@ -18,7 +18,7 @@
             src="assets/images/bailey-anselme-Bkp3gLygyeA-unsplash.webp"
             width="120"
             :placeholder="[250, 250]"
-        />
+        />-->
       </div>
       <div class="w-full">
         <NuxtImg
