@@ -1,8 +1,8 @@
 <template>
   <div>
   <!-- Banniere -->
-  <Section>
-    <div class="grid grid-cols-1 lg:grid-cols-2 w-full">
+  <Section class="min-h-0">
+    <div class="flex flex-col-reverse md:grid md:grid-cols-2 w-full">
       <div class="flex flex-col justify-center min-h-[500px] items-center w-full relative">
         <span class="flex flex-col gap-6 text-center md:text-left">
           <h1 class="text-4xl">Proprieté incroyable</h1>

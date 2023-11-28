@@ -4,7 +4,7 @@
     <div class="border-primary border-2 flex flex-col lg:flex-row">
       <figure class=" lg:max-w-[500px] m-16">
         <div class="text-white flex flex-col">
-          <Titre>Versement régulier</Titre>
+          <Titre>Prêt hypothécaire</Titre>
           <span class="flex flex-col w-full"
           ><label for="pretHypot">Montant du prêt hypothécaire:</label>
           <input
