@@ -8,7 +8,7 @@
       <h3>{{ one.house['Address'] }}</h3>
       <h3>MLS® Number: {{ one.house.code }}</h3>
     </div>
-    <NuxtLink class="self-end mb-4 mr-6" :to="'/immobilier/'+one.house.code"><Button>Voir plus</Button></NuxtLink>
+    <NuxtLink class="self-end mb-4 mr-6" :to="'/proprietes/'+one.house.code"><Button>Voir plus</Button></NuxtLink>
   </article>
 </template>
 <script lang="ts">
