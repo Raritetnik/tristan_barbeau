@@ -35,7 +35,7 @@ import CardHouse from "~/components/elements/CardHouse.vue";
 import Button from "~/components/elements/Button.vue";
 
 useSeoMeta({
-  title: "L'immobilier qui pourra vous intéresser ! | Tristan Barbeau",
+  title: "L'immobilier qui pourra vous intéresser! | Tristan Barbeau",
   description: "Les services professionnels proposés par le courtier immobilier Tristan Barbeau. " +
       "Touts ce qui est associé aux processus d'achat, de vente et de location de biens immobiliers."
 });

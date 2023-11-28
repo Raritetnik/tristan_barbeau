@@ -62,6 +62,12 @@ import Section from "~/components/elements/Section.vue";
 import Titre from "~/components/elements/Titre.vue";
 import Button from "~/components/elements/Button.vue";
 
+useSeoMeta({
+  title: "Propriété en vente | Tristan Barbeau",
+  description: "Les services professionnels proposés par le courtier immobilier Tristan Barbeau. " +
+      "Touts ce qui est associé aux processus d'achat, de vente et de location de biens immobiliers."
+});
+
 var lightBoxUrl = ref('');
 var isClosed = ref(true);
 const { code } = useRoute().params;
