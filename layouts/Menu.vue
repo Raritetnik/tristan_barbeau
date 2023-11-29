@@ -2,30 +2,53 @@
 defineProps(["isClosed", "closeMenu"]);
 defineEmits(['update:isClosed', 'update:closeMenu']);
 
-const menuList = [
-  {option: "Accueil", lien: '/'},
-  {option: "Proprietés", lien: '/proprietes'},
-  {option: "Evaluez votre maison", lien: '/evaluation'},
-  {option: "Contact", lien: '/contact'},
-  {option: "Calculatrice", lien: '/calculatrice'},
-  {option: "À propos", lien: '/a-propos'},
-]
+const { t, d } = useI18n();
+
 </script>
-accueil, proprietés, contact, evaluez votre maison, calculatrice, à propos
 <template>
   <nav :class="{ closeMenu: isClosed, openMenu: !isClosed }"
        class="menu z-[2] flex flex-col justify-center lg:absolute lg:-translate-y-1/2 lg:left-1/2 lg:-translate-x-1/2">
     <ul class="flex flex-col lg:flex-row lg:justify-between text-black font-[500] text-center items-center uppercase whitespace-nowrap text-[16px]">
-      <li v-for="option in menuList" class="link">
-        <NuxtLink :to="option.lien" class="lg:h-[60px] px-.5 lg:flex lg:items-center lg:justify-center"
-                  @click="closeMenu()">{{ option.option }}
+      <li class="link">
+        <NuxtLink :to="t('accueil.link')" class="lg:h-[60px] px-.5 lg:flex lg:items-center lg:justify-center"
+                  @click="closeMenu()">{{ $t('accueil.title') }}
+        </NuxtLink>
+      </li>
+      <li class="link">
+        <NuxtLink :to="t('propriete.link')" class="lg:h-[60px] px-.5 lg:flex lg:items-center lg:justify-center"
+                  @click="closeMenu()">{{ $t('propriete.title') }}
+        </NuxtLink>
+      </li>
+      <li class="link">
+        <NuxtLink :to="t('evaluer.link')" class="lg:h-[60px] px-.5 lg:flex lg:items-center lg:justify-center"
+                  @click="closeMenu()">{{ $t('evaluer.title') }}
+        </NuxtLink>
+      </li>
+      <li class="link">
+        <NuxtLink :to="t('contact.link')" class="lg:h-[60px] px-.5 lg:flex lg:items-center lg:justify-center"
+                  @click="closeMenu()">{{ $t('contact.title') }}
+        </NuxtLink>
+      </li>
+      <li class="link">
+        <NuxtLink :to="t('calculatrice.link')" class="lg:h-[60px] px-.5 lg:flex lg:items-center lg:justify-center"
+                  @click="closeMenu()">{{ $t('calculatrice.title') }}
+        </NuxtLink>
+      </li>
+      <li class="link">
+        <NuxtLink :to="t('a_propos.link')" class="lg:h-[60px] px-.5 lg:flex lg:items-center lg:justify-center"
+                  @click="closeMenu()">{{ $t('a_propos.title') }}
         </NuxtLink>
       </li>
     </ul>
     <h2 class="lg:hidden inline-block self-center bg-white rounded-full py-2 px-6 lg:me-4 border-black border-2 text-black text-lg lg:text-xl">
-      514-555-2525</h2>
+      514-555-2525
+    </h2>
   </nav>
 </template>
+
+<script lang="ts">
+
+</script>
 
 
 <style scoped>

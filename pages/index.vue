@@ -5,7 +5,7 @@
     <div class="flex flex-col-reverse md:grid md:grid-cols-2 w-full">
       <div class="flex flex-col justify-center min-h-[500px] items-center w-full relative">
         <span class="flex flex-col gap-6 text-center md:text-left">
-          <h1 class="text-4xl">Proprieté incroyable</h1>
+          <h1 class="text-4xl">{{ $t('incredProp') }}</h1>
           <h2 class="text-2xl">Courtier immobilier résidentiel</h2>
           <NuxtLink to="/contact"><Button class="self-end">Contactez-moi</Button></NuxtLink>
         </span>
@@ -125,12 +125,14 @@ import Section from "~/components/elements/Section.vue";
 import Button from "~/components/elements/Button.vue";
 import bgImage from "~/assets/images/Maison_de_bord.webp";
 import ContactForm from "~/components/elements/ContactForm.vue";
+const { t } = useI18n();
 
 useSeoMeta({
   title: 'Realtor professionnel: estimation, vente | Tristan Barbeau',
   description: ""
 });
 </script>
+
 
 <style>
 input[type="text"],

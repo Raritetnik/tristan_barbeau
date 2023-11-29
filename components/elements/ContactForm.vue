@@ -95,8 +95,6 @@ let dispos = '';
 let honeypot = '';
 let action = '';
 
-
-let products = ref(null);
 let isSent = ref(false);
 const sendMessage = async (e: any) => {
   isSent.value = !isSent.value;

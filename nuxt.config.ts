@@ -15,7 +15,13 @@ export default defineNuxtConfig({
       'nuxt-delay-hydration',
       '@nuxt-modules/compression',
       '@averjs/nuxt-compression',
-      'nuxt-simple-sitemap'],
+      'nuxt-simple-sitemap',
+      '@nuxtjs/i18n'],
+    i18n: {
+        vueI18n: './i18n.config.ts',
+        locales: ['en', 'fr'],
+        defaultLocale: 'fr',
+    },
   image: {
       provider: 'netlify',
       netlify: {
@@ -42,6 +48,7 @@ export default defineNuxtConfig({
           ]
       },
       pageTransition: { name: 'page', mode: 'out-in' },
+      //layoutTransition: { name: 'layout', mode: 'out-in' },
   },
   components: true,
   site: {
