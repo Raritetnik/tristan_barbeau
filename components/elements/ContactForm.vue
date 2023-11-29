@@ -47,7 +47,7 @@
             <span>Vous chercher à...</span>
             <span class="grid grid-cols-1 gap-4">
               <label class="form-control"
-              ><input v-model="checkedItems" :name="action" type="radio" value="Acheter"/> Acheter</label>
+              ><input v-model="checkedItems" :name="action" type="radio" value="Acheter" checked /> Acheter</label>
               <label class="form-control"
               ><input v-model="checkedItems" :name="action" type="radio" value="Vendre"/> Vendre</label>
             </span>

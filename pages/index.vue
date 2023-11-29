@@ -128,8 +128,7 @@ import ContactForm from "~/components/elements/ContactForm.vue";
 
 useSeoMeta({
   title: 'Realtor professionnel: estimation, vente | Tristan Barbeau',
-  description: "Les services professionnels proposés par le courtier immobilier Tristan Barbeau. " +
-      "Touts ce qui est associé aux processus d'achat, de vente et de location de biens immobiliers."
+  description: ""
 });
 </script>
 
@@ -166,13 +165,9 @@ select {
 }
 
 input[type="checkbox"] {
-  /* Add if not using autoprefixer */
   -webkit-appearance: none;
-  /* Remove most all native input styles */
   appearance: none;
-  /* For iOS < 15 */
   background-color: var(--form-background);
-  /* Not removed via appearance */
   margin: 0;
 
   font: inherit;
