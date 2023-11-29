@@ -34,8 +34,8 @@
                   /></label>
               </span>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 w-full">
-          <div class="flex flex-col gap-2 border-e-2 border-primary col-span-2">
+        <div class="grid grid-cols-1 lg:grid-cols-3 w-full">
+          <div class="flex flex-col gap-2 border-e-2 border-primary lg:col-span-2">
             <span>Disponibilités</span>
             <span class="grid grid-cols-2 gap-4">
               <label v-for="item in listeDispos" :for="item.id" class="form-control"
@@ -43,7 +43,7 @@
                 {{ item.titre }}</label>
             </span>
           </div>
-          <div class="flex flex-col gap-2 px-4 col-span-1">
+          <div class="flex flex-col gap-2 px-4">
             <span>Vous chercher à...</span>
             <span class="grid grid-cols-1 gap-4">
               <label class="form-control"
