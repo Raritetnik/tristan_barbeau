@@ -2,7 +2,7 @@
 defineProps(["isClosed", "closeMenu"]);
 defineEmits(['update:isClosed', 'update:closeMenu']);
 
-const { t, d } = useI18n();
+const { t, locale  } = useI18n();
 
 </script>
 <template>
@@ -45,11 +45,6 @@ const { t, d } = useI18n();
     </h2>
   </nav>
 </template>
-
-<script lang="ts">
-
-</script>
-
 
 <style scoped>
 @media (min-width: 1024px) {
