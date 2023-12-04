@@ -42,5 +42,4 @@ var closeMenu = () => {
   border-radius: 20px;
   background-color: var(--color_primary);
 }
-
 </style>

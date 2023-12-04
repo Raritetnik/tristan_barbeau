@@ -41,7 +41,6 @@ useSeoMeta({
 });
 
 const route = useRoute();
-const numberOfPages = ref(5);
 const pageNumber = ref((route.query.page) ? route.query.page : 1);
 
 const {pending, data: houses, refresh} = await useLazyAsyncData('count', () => $fetch('/api/houses', {

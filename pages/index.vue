@@ -226,12 +226,4 @@ input[type="checkbox"]:checked::before {
   font-weight: bold;
   font-size: 18px;
 }
-
-#pretHypot:after {
-  content: "$";
-  color: white;
-  background-color: var(--color_primary);
-  width: 40px;
-  height: 40px;
-}
 </style>
