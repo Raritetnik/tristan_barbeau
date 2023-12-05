@@ -6,8 +6,8 @@
       <div class="flex flex-col justify-center min-h-[500px] items-center w-full relative">
         <span class="flex flex-col gap-6 text-center md:text-left">
           <h1 class="text-4xl">{{ $t('incredProp') }}</h1>
-          <h2 class="text-2xl">Courtier immobilier résidentiel</h2>
-          <NuxtLink to="/contact"><Button class="self-end">Contactez-moi</Button></NuxtLink>
+          <h2 class="text-2xl">{{ $t('courtierImmobilier') }}</h2>
+          <NuxtLink to="/contact"><Button class="self-end">{{ $t('contactezMoi') }}</Button></NuxtLink>
         </span>
         <!--<NuxtImg
             preload
@@ -52,18 +52,16 @@
         class="w-full flex flex-col justify-center items-center text-white px-4 py-20 md:p-20 min-h-[500px] "
     >
       <div class="flex flex-col gap-3 border-s-2 border-[#C4971C] ps-8 ">
-        <h1 class="text-3xl font-semibold uppercase">À propos de moi</h1>
+        <h1 class="text-3xl font-semibold uppercase">{{ $t('proposMoi') }}</h1>
         <p class="max-w-[60ch]">
-          J’aborde mon travail avec une compréhension solide du marché
-          local et une priorité accordée à l’assistance personnalisée. Que
-          vous soyez un acheteur novice ou un investisseur chevronné, je suis
-          là pour vous guider à chaque étape du processus.
+          {{
+            $t('accueilAproposMoi')
+          }}
         </p>
         <p class="max-w-[60ch]">
-          La base de mon approche repose sur une attention particulière aux
-          exigences et préférences de mes clients. Cela me permet de
-          personnaliser mes offres pour répondre à vos besoins et
-          préférences uniques, garantissant une expérience personnalisée.
+          {{
+            $t('accueilSuiteProposMoi')
+          }}
         </p>
       </div>
     </div>
