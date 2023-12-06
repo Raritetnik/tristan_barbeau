@@ -86,6 +86,8 @@ export default {
     parSemaine: 'Par semaine (x54)',
     par2Semaine: 'Par 2 semaines (x27)',
 
-
+    cautionTextCal: `Important : Les calculs fournis donnent un résultat approximatif et ne peuvent être considérés
+      comme une ressource fiable. Pour obtenir des sommes plus précises, veuillez contacter l'institution
+      qui fournit les services de prêt hypothécaire`,
 
 }

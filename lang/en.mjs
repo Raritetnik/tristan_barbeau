@@ -61,7 +61,7 @@ export default {
     pretHypoTitle: 'Mortgage',
     amountPretHypo: 'Mortgage amount',
     tauxIntéret: 'Interest rate',
-    periodeAmortissement: 'Amortization period\n',
+    periodeAmortissement: 'Amortization period',
 
     ans: 'years',
     mois: 'months',
@@ -71,4 +71,8 @@ export default {
     parDemiMois: 'Bimonthly (x6)',
     parSemaine: 'Per week (x54)',
     par2Semaine: 'Per 2 weeks (x27)',
+
+    cautionTextCal: `Important: The provided calculations give an approximate result and cannot be considered
+        as a reliable resource. To obtain more accurate amounts, please contact the institution
+        that provides mortgage loan services`,
 }

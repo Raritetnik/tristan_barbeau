@@ -122,10 +122,7 @@
     </div>
   </Section>
     <div class="max-w-[1200px] flex justify-center pb-8 mx-auto">
-      <h3 class=" text-center text-lg">Important : Les calculs fournis donnent un résultat approximatif et <span class="text-primary">ne peuvent être considérés
-      comme une ressource fiable</span>. Pour obtenir des sommes plus précises, veuillez <span class="text-primary">contacter l'institution
-      qui fournit les services</span> de prêt hypothécaire.
-      </h3>
+      <h3 id="importantCalcul" class="text-center text-lg" >{{ $t('cautionTextCal') }}</h3>
     </div>
   </div>
 </template>
@@ -134,6 +131,9 @@ import Section from "~/components/elements/Section.vue";
 import Button from "~/components/elements/Button.vue";
 import Titre from "~/components/elements/Titre.vue";
 import {ref} from "vue";
+const { t, locale  } = useI18n();
+
+
 
 useSeoMeta({
   title: "Obtenez une calcul approximative sur votre prêt hypothécaire | Tristan Barbeau",

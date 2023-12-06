@@ -1,6 +1,6 @@
 <template>
   <div>
-  <Navigation></Navigation>
+  <Navigation class="overflow-x-hidden"></Navigation>
 
   <!-- Content Section -->
   <slot></slot>
