@@ -10,7 +10,7 @@
           <input
               id="pretHypot"
               v-model="pretHypothec"
-              class="w-full"
+              class="w-full text-black"
               max="{1000000}"
               min="{10000}"
               name="pretHypot"
@@ -22,6 +22,7 @@
             <input
                 id="tauxInteret"
                 v-model="tauxInteret"
+                class="text-black"
                 max="{30}"
                 min="{0.01}"
                 name="tauxInteret"
@@ -200,3 +201,9 @@ const calculerInteret = (pret: number, taux: number, time: number) => {
   return upperCalc / (1 - pow);
 };
 </script>
+
+<style scope>
+.calcApercu td {
+  border: 1px var(--color_primary) solid;
+}
+</style>
