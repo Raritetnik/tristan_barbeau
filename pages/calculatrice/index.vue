@@ -121,6 +121,12 @@
       </div>
     </div>
   </Section>
+    <div class="max-w-[1200px] flex justify-center pb-8 mx-auto">
+      <h3 class=" text-center text-lg">Important : Les calculs fournis donnent un résultat approximatif et <span class="text-primary">ne peuvent être considérés
+      comme une ressource fiable</span>. Pour obtenir des sommes plus précises, veuillez <span class="text-primary">contacter l'institution
+      qui fournit les services</span> de prêt hypothécaire.
+      </h3>
+    </div>
   </div>
 </template>
 <script lang="ts" setup>

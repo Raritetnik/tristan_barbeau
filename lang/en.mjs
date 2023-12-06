@@ -64,7 +64,7 @@ export default {
     periodeAmortissement: 'Amortization period\n',
 
     ans: 'years',
-    mois: 'month',
+    mois: 'months',
 
     frequenceVersements: 'Payment frequency',
     parMois: 'Monthly (x12)',
