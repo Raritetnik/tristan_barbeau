@@ -2,7 +2,7 @@
   <footer class="text-white border-t-2 border-primary py-10 px-2">
     <div class="mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4 max-w-[1920px] py-6 lg:px-8">
       <div>
-        <h2 class="decor-text text-5xl inline-flex border-primary border-s-2 px-6">
+        <h2 class="decor-text text-4xl lg:text-5xl inline-flex border-primary border-s-2 px-6">
           <LazyNuxtImg alt="Realtor icon" class="w-30 h-30 aspect-auto hidden md:block" height="100"
                        src="assets/images/realtor-96.png"
                        width="100"/>

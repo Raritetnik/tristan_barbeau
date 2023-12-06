@@ -2,7 +2,7 @@
   <div>
   <Section class="py-[60px]">
     <div class="border-primary border-2 flex flex-col lg:flex-row">
-      <figure class=" lg:max-w-[500px] m-16">
+      <figure class=" lg:max-w-[500px] mx-8 my-12 md:m-16">
         <div class="text-white flex flex-col">
           <Titre>{{ $t('pretHypoTitle')}}</Titre>
           <span class="flex flex-col w-full"
@@ -85,7 +85,7 @@
         >Calculer
         </Button>
       </figure>
-      <div class="m-16">
+      <div class="mx-8 mb-12 md:m-16">
         <Titre>Aperçu des calculs</Titre>
         <table class="calcApercu w-full">
           <thead>
@@ -121,7 +121,7 @@
       </div>
     </div>
   </Section>
-    <div class="max-w-[1200px] flex justify-center pb-8 mx-auto">
+    <div class="max-w-[1200px] flex justify-center px-4 md:px-2 pb-8 mx-auto">
       <h3 id="importantCalcul" class="text-center text-lg" >{{ $t('cautionTextCal') }}</h3>
     </div>
   </div>

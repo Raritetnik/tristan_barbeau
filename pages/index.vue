@@ -89,7 +89,7 @@
         <h2 class="text-[8rem] leading-none m-0 hidden md:block">+</h2>
       </div>
       <div class="flex gap-4">
-        <h2 class="text-[8rem] decor-text text-white">
+        <h2 class="text-[5rem] lg:text-[8rem] decor-text text-white">
           Tristan <br/>
           Barbeau
         </h2>

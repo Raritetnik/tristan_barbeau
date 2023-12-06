@@ -43,7 +43,7 @@
                 {{ item.titre }}</label>
             </span>
           </div>
-          <div class="flex flex-col gap-2 px-4">
+          <div class="flex flex-col gap-2 md:px-4 pt-4 md:pt-0">
             <span>{{ $t('recherche') }}</span>
             <span class="grid grid-cols-1 gap-4">
               <label class="form-control"
