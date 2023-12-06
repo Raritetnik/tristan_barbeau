@@ -205,5 +205,6 @@ const calculerInteret = (pret: number, taux: number, time: number) => {
 <style scope>
 .calcApercu td {
   border: 1px var(--color_primary) solid;
+  padding: 10px 15px;
 }
 </style>
