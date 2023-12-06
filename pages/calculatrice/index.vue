@@ -87,15 +87,15 @@
       </figure>
       <div class="mx-8 mb-12 md:m-16">
         <Titre>Aperçu des calculs</Titre>
-        <table class="calcApercu w-full">
+        <table class="calcApercu max-w-full">
           <thead>
           <tr class="w-full">
-            <th class="w-1/3 bg-primary font-[600] text-left">Catégorie</th>
+            <th class="text-sm lg:text-lg bg-primary font-[600] text-left">Catégorie</th>
 
-            <td class="w-1/3 bg-primary font-[600]">Période d’amortissement</td>
+            <td class="text-sm lg:text-lg bg-primary font-[600] break-words">Période d’amortissement</td>
           </tr>
           </thead>
-          <tbody>
+          <tbody class="text-sm">
           <tr class="">
             <td>Nombre de versements</td>
             <td>{{ duree }}</td>
@@ -122,7 +122,7 @@
     </div>
   </Section>
     <div class="max-w-[1200px] flex justify-center px-4 md:px-2 pb-8 mx-auto">
-      <h3 id="importantCalcul" class="text-center text-lg" >{{ $t('cautionTextCal') }}</h3>
+      <h3 id="importantCalcul" class="text-center text-sm" >{{ $t('cautionTextCal') }}</h3>
     </div>
   </div>
 </template>
