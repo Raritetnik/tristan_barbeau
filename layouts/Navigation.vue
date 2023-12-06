@@ -2,6 +2,8 @@
 
 import Menu from "~/layouts/Menu.vue";
 import Button from "~/components/elements/Button.vue";
+
+let local = useI18n();
 </script>
 <template>
   <header class="navBar w-full py-2 z-[2] px-1 md:px-2 lg:px-6 text-white border-b-2 border-primary">
@@ -11,13 +13,19 @@ import Button from "~/components/elements/Button.vue";
                  src="./assets/images/realtor-96.png" width="30"/>-->
         Tristan Barbeau
       </h2>
-      <button :class="{active: !isClosed}" class="lg:hidden bg-transparent px-3 py-3" @click="closeMenu()">
+      <span class="flex lg:hidden justify-between items-center">
+        <span class="inline-block align-middle">
+          <button @click="local.setLocale('fr')" v-if="local.locale.value !== 'fr'" class="text-white w-[50px] h-[50px]">FR</button>
+          <button @click="local.setLocale('en')" v-else class="text-white w-[50px] h-[50px]">EN</button>
+        </span>
+      <button :class="{active: !isClosed}" class="bg-transparent px-3 py-3" @click="closeMenu()">
         <svg class="menuBtn" fill="currentColor" height="25" viewBox="0 0 100 80" width="25">
           <rect height="20" width="100" y="0"></rect>
           <rect height="20" width="100" y="30"></rect>
           <rect height="20" width="100" y="60"></rect>
         </svg>
       </button>
+      </span>
       <h2 class="hidden lg:inline-block bg-white rounded-full py-2 px-6 lg:me-4 border-black border-2 text-black text-lg lg:text-xl">
         (514) 706 5569</h2>
     </div>
