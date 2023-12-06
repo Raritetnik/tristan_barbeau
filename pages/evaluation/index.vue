@@ -3,38 +3,38 @@
   <Section class="">
     <div class=" py-8 w-full flex flex-col items-center text-white justify-center">
       <div class="p-8 flex flex-col gap-4">
-        <Titre>Vous voulez plus d'information?</Titre>
+        <Titre>{{ $t('titleEvaluation') }}</Titre>
         <figure :class="{ messageSent: !isSent}" class="flex flex-col justify-center text-center">
-          <h2 class="text-xl">Merci de m'avoir soumettre la demande d'évaluation !</h2>
-          <p>Je vous rappele dès que possible !</p>
+          <h2 class="text-xl">{{ $t('thanksEvaluation') }}</h2>
+          <p>{{ $t('contactBack') }}</p>
         </figure>
         <form v-on:submit.prevent :class="{ messageSent: isSent}" class="formulaire flex flex-col w-full gap-5" netlify>
           <span class="flex flex-col ">
             <label for="adresse"
-            >Adresse de votre propriété:<br/>
+            >{{ $t('adresse') }}:<br/>
               <input id="adresse" v-model="adresse" class="w-full" name="adresse" type="text"
               /></label>
           </span>
           <span class="flex flex-col ">
             <label for="nom"
-            >Votre nom complet:<br/>
+            >{{ $t('fullName') }}:<br/>
               <input id="nom" v-model="nom" class="w-full" name="nom" type="text"
               /></label>
           </span>
           <span class="flex flex-col ">
             <label for="telephone"
-            >Téléphone:<br/>
+            >{{ $t('phone') }}:<br/>
               <input id="telephone" v-model="phone" class="w-full" name="telephone" type="text"
               /></label>
           </span>
           <span class="flex flex-col ">
             <label for="courriel"
-            >Courriel: <br/>
+            >{{ $t('courriel') }}: <br/>
               <input id="courriel" v-model="email" class="w-full" name="courriel" type="text"
               /></label>
           </span>
           <input type="text" v-model="honeypot" name="honeypot" style="display:none">
-          <Button class="self-start" @click="(e) => {sendMessage(e)}">Envoyer message</Button>
+          <Button class="self-start" @click="(e) => {sendMessage(e)}">{{ $t('envoyerMessage') }}</Button>
         </form>
       </div>
     </div>

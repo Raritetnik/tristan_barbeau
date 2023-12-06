@@ -4,9 +4,9 @@
     <div class="border-primary border-2 flex flex-col lg:flex-row">
       <figure class=" lg:max-w-[500px] m-16">
         <div class="text-white flex flex-col">
-          <Titre>Prêt hypothécaire</Titre>
+          <Titre>{{ $t('pretHypoTitle')}}</Titre>
           <span class="flex flex-col w-full"
-          ><label for="pretHypot">Montant du prêt hypothécaire:</label>
+          ><label for="pretHypot">{{ $t('amountPretHypo') }}:</label>
           <input
               id="pretHypot"
               v-model="pretHypothec"
@@ -18,7 +18,7 @@
           /></span>
           <div class="grid grid-cols-2 gap-6">
         <span class="flex flex-col w-full"
-        ><label for="tauxInteret">Taux d'intéret</label>
+        ><label for="tauxInteret">{{ $t('tauxIntéret') }}:</label>
             <input
                 id="tauxInteret"
                 v-model="tauxInteret"
@@ -29,7 +29,7 @@
                 type="number"
             /></span>
             <span class="flex flex-col w-full"
-            ><label for="amortissement">Période d'amortissement:</label>
+            ><label for="amortissement">{{ $t('periodeAmortissement') }}:</label>
               <span class="grid grid-cols-2 w-full gap-2">
                 <select
                     id="ammortisAnnees"
@@ -42,7 +42,7 @@
                       :value="annee"
                       class="text-black"
                   >
-                    {{ annee }} ans
+                    {{ annee }} {{ $t('ans') }}
                   </option>
                 </select>
                 <select
@@ -52,7 +52,7 @@
                     name="ammortisMois"
                 >
                   <option v-for="m in mois" :value="m" class="text-black">
-                    {{ m }} mois
+                    {{ m }} {{ $t('mois') }}
                   </option>
                 </select>
               </span>
@@ -61,25 +61,21 @@
         </div>
         <div class="flex gap-2 items-end">
             <span class="flex flex-col w-full"
-            ><label for="freqVersement">Fréquence des versements:</label>
+            ><label for="freqVersement">{{ $t('frequenceVersements' )}}:</label>
               <select
                   id="freqVersement"
                   v-model="freqVersement"
                   class="text-black"
                   name="freqVersement"
               >
-                <option class="text-black" value="mois">Par mois</option>
-                <option class="text-black" value="demi-semaine">
-                  Par semaine
-                </option>
-                <option class="text-black" value="bi-semaine">
-                  Aux 2 semaine
-                </option>
-                <option class="text-black" value="semaine">Par semaine</option>
+                <option class="text-black" value="mois">{{ $t('parMois') }}</option>
+                <option class="text-black" value="2mois">{{ $t('parDemiMois') }}</option>
+                <option class="text-black" value="bi-semaine">{{ $t('par2Semaine') }}</option>
+                <option class="text-black" value="semaine">{{ $t('parSemaine') }}</option>
               </select>
             </span>
         </div>
-        <Button :onclick="
+        <Button @click="
           (e) => {
             submit(e);
           }
@@ -153,7 +149,7 @@ let CADollar = new Intl.NumberFormat("fr-CA", {
   currency: "CAD",
 });
 
-let versementMensuel: number = ref(0);
+let versementMensuel = ref(0);
 let pretHypothec: number = 250000;
 let tauxInteret: number = 5;
 
@@ -166,14 +162,21 @@ let duree: number = 0;
 let freqVersement: string = "mois";
 
 
+
 // ----------- Les calculs -------------------
 let prixTotale = ref(0);
 let paiementCapital = ref(0);
 let paiementFraisInteret = ref(0);
-
+let dureePaiement = ref(12);
 
 const submit = (e: any) => {
-  duree = ammortisAnnees * 12 + ammortisMois;
+  console.log('Faire le calcul');
+  dureePaiement.value =
+      (freqVersement == 'demi-mois') ? 6 :
+          (freqVersement == 'semaine') ? 54 :
+              (freqVersement == 'bi-semaine') ? 27 : 12;
+
+  duree = ammortisAnnees * dureePaiement.value + ammortisMois;
   prixTotale.value = versementMensuel.value * duree;
   versementMensuel.value = calculerInteret(pretHypothec, tauxInteret, duree);
 
@@ -185,10 +188,10 @@ const submit = (e: any) => {
 
 const calculerInteret = (pret: number, taux: number, time: number) => {
   // (1 + taux/100)^duree
-  let a = 1 + (taux / 100 / 12);
+  let a = 1 + (taux / 100 / dureePaiement.value);
   let pow = Math.pow(a, -time);
 
-  let upperCalc = (pret * (taux / 100) / 12)
+  let upperCalc = (pret * (taux / 100) / dureePaiement.value)
   return upperCalc / (1 - pow);
 };
 </script>

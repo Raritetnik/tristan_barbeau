@@ -3,7 +3,7 @@
   <Section class="min-h-[500px]">
     <div class="flex flex-col justify-center w-full">
       <div class="flex justify-between w-full px-8 pt-20 pb-8">
-        <Titre>Propriétés</Titre>
+        <Titre>{{ $t('proprietes') }}</Titre>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-h-none px-16 pb-20 appearsBlocks">
         <div v-if="pending">
