@@ -2,7 +2,7 @@
   <div>
   <Section class="py-[60px]">
     <div class="border-primary border-2 flex flex-col lg:flex-row">
-      <figure class=" lg:max-w-[500px] mx-8 my-12 md:m-16">
+      <figure class=" lg:max-w-[500px] mx-2 my-12 md:m-16">
         <div class="text-white flex flex-col">
           <Titre>{{ $t('pretHypoTitle')}}</Titre>
           <span class="flex flex-col w-full"
@@ -85,13 +85,12 @@
         >Calculer
         </Button>
       </figure>
-      <div class="mx-8 mb-12 md:m-16">
+      <div class="mx-2 mb-12 md:m-16">
         <Titre>Aperçu des calculs</Titre>
         <table class="calcApercu max-w-full">
           <thead>
           <tr class="w-full">
             <th class="text-sm lg:text-lg bg-primary font-[600] text-left">Catégorie</th>
-
             <td class="text-sm lg:text-lg bg-primary font-[600] break-words">Période d’amortissement</td>
           </tr>
           </thead>
