@@ -87,33 +87,33 @@
         </Button>
       </figure>
       <div class="mx-2 mb-12 md:m-16">
-        <Titre>Aperçu des calculs</Titre>
+        <Titre>{{ $t('apercuCalculs') }}</Titre>
         <table class="calcApercu max-w-full">
           <thead>
           <tr class="w-full">
-            <th class="text-sm lg:text-lg bg-primary font-[600] text-left">Catégorie</th>
-            <td class="text-sm lg:text-lg bg-primary font-[600] break-words">Période d’amortissement</td>
+            <th class="text-sm lg:text-lg bg-primary font-[600] text-left">{{ $t('category') }}</th>
+            <td class="text-sm lg:text-lg bg-primary font-[600] break-words">{{ $t('amortissement') }}</td>
           </tr>
           </thead>
           <tbody class="text-sm">
           <tr class="">
-            <td>Nombre de versements</td>
+            <td>{{ $t('nombreVersements') }}</td>
             <td>{{ duree }}</td>
           </tr>
           <tr class="">
-            <td>Versement hypothécaire</td>
+            <td>{{ $t('versementHypothecaire') }}</td>
             <td>{{ CADollar.format(versementMensuel) }}</td>
           </tr>
           <tr class="">
-            <td>Paiement de capital</td>
+            <td>{{ $t('capitalPayment') }}</td>
             <td>{{ CADollar.format(paiementCapital) }}</td>
           </tr>
           <tr class="">
-            <td>Paiement de frais d’intérêt</td>
+            <td>{{ $t('paiementInteret') }}</td>
             <td>{{ CADollar.format(paiementFraisInteret) }}</td>
           </tr>
           <tr class="">
-            <td>Coût total</td>
+            <td>{{ $t('coutTotal') }}</td>
             <td>{{ CADollar.format(prixTotale) }}</td>
           </tr>
           </tbody>

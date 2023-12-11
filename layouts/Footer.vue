@@ -16,24 +16,27 @@
         <p>(514) 706 5569</p>
       </div>
       <div class="flex flex-col border-s-2 border-primary px-6">
-        <h2 class="text-2xl pb-3 uppercase">Liens</h2>
-        <a href="">Accueil</a>
-        <a href="">À propos</a>
-        <a href="">Évaluez votre maison</a>
-        <a href="">Contact</a>
+        <h2 class="text-2xl pb-3 uppercase">{{ $t('links') }}</h2>
+        <NuxtLink :to="t('accueil.link')" class="hover:text-primary">{{ $t('accueil.title') }}</NuxtLink>
+        <NuxtLink :to="t('propriete.link')" class="hover:text-primary">{{ $t('propriete.title') }}</NuxtLink>
+        <NuxtLink :to="t('evaluer.link')" class="hover:text-primary">{{ $t('evaluer.title') }}</NuxtLink>
+        <NuxtLink :to="t('contact.link')" class="hover:text-primary">{{ $t('contact.title') }}</NuxtLink>
+        <NuxtLink :to="t('calculatrice.link')" class="hover:text-primary">{{ $t('calculatrice.title') }}</NuxtLink>
       </div>
       <div class="border-s-2 border-primary flex flex-col gap-4 px-6">
-        <NuxtImg alt="Propio Direct" height="120" src="assets/images/duproprio_logo-clr.png" width="100px"/>
-        <div class="flex gap-2">
-          <NuxtLink to="#">
-            <NuxtImg alt="FB" height="30" src="assets/images/facebook_w.png" width="30"/>
-          </NuxtLink>
-          <NuxtLink to="#">
-            <NuxtImg alt="Instag" height="30" src="assets/images/instagram_w.png" width="30"/>
-          </NuxtLink>
-          <NuxtLink to="#">
-            <NuxtImg alt="LinkIn" height="30" src="assets/images/linkedin_w.png" width="30"/>
-          </NuxtLink>
+        <div class="inline-flex flex-col justify-center items-center max-w-max">
+          <NuxtImg alt="Propio Direct" height="120" src="assets/images/duproprio_logo-clr.png" class="mb-2" width="100px"/>
+          <div class="flex gap-2">
+            <NuxtLink to="#">
+              <NuxtImg alt="FB" height="35" src="assets/images/facebook_w.png" width="35"/>
+            </NuxtLink>
+            <NuxtLink to="#">
+              <NuxtImg alt="Instag" height="35" src="assets/images/instagram_w.png" width="35"/>
+            </NuxtLink>
+            <NuxtLink to="#">
+              <NuxtImg alt="LinkIn" height="35" src="assets/images/linkedin_w.png" width="35"/>
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </div>
@@ -44,4 +47,5 @@
   </footer>
 </template>
 <script lang="ts" setup>
+const { t, locale  } = useI18n();
 </script>

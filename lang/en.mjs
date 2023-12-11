@@ -75,4 +75,22 @@ export default {
     cautionTextCal: `Important: The provided calculations give an approximate result and cannot be considered
         as a reliable resource. To obtain more accurate amounts, please contact the institution
         that provides mortgage loan services`,
+
+    apercuCalculs: 'Overview of calculations',
+    category: 'Category',
+    amortissement: 'Amortization period',
+    nombreVersements: 'Number of payments',
+    versementHypothecaire: 'Mortgage payment',
+    capitalPayment: 'Capital payment',
+    paiementInteret: 'Payment of interest charges',
+    coutTotal: 'Total cost',
+
+
+    // Footer
+    liens: 'Links',
+
+    aboutPageText1: "Hello! My name is Tristan Barbeau, and I am a young and ambitious individual eager to make a mark in the real estate industry. I bring fresh perspectives and a commitment to providing exceptional service to my clients.",
+    aboutPageText2: 'I quickly integrated into this dynamic sector due to my passion for real estate and my constant commitment to learning. My goal is to make the buying or selling experience of each home as simple and rewarding as possible for every client.',
+
+
 }

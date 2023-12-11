@@ -90,4 +90,23 @@ export default {
       comme une ressource fiable. Pour obtenir des sommes plus précises, veuillez contacter l'institution
       qui fournit les services de prêt hypothécaire`,
 
+    apercuCalculs: 'Aperçu des calculs',
+    category: 'Catégorie',
+    amortissement: 'Période d’amortissement',
+    nombreVersements: 'Nombre de versements',
+    versementHypothecaire: 'Versement hypothécaire',
+    capitalPayment: 'Paiement de capital',
+    paiementInteret: 'Paiement de frais d’intérêt',
+    coutTotal: 'Coût total',
+
+    // Footer
+    links: 'Liens',
+
+    aboutPageText1: 'Salut ! Je m’appelle Tristan Barbeau, et je suis un jeune individu ambitieux désireux de' +
+        '          laisser une marque dans l’industrie immobilière. J’apporte des perspectives nouvelles' +
+        '          et un engagement à offrir un service exceptionnel à mes clients.',
+    aboutPageText2: 'Je me suis rapidement intégré dans ce secteur dynamique en raison de ma passion' +
+        '          pour l’immobilier et mon engagement constant à apprendre. Mon objectif est de' +
+        '          rendre l’expérience d’achat ou de vente de chaque maison aussi simple et' +
+        '          enrichissante que possible pour chaque client.',
 }

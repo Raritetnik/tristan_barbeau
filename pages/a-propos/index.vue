@@ -19,15 +19,10 @@
       <div class="bg-white px-14 pt-32 pb-24">
         <h2 class="text-3xl pb-5 text-black">Tristan Barbeau</h2>
         <p class="text-black pb-10">
-          Salut ! Je m’appelle Tristan Barbeau, et je suis un jeune individu ambitieux désireux de
-          laisser une marque dans l’industrie immobilière. J’apporte des perspectives nouvelles
-          et un engagement à offrir un service exceptionnel à mes clients.
+          {{ $t('aboutPageText1') }}
         </p>
         <p class="text-black">
-          Je me suis rapidement intégré dans ce secteur dynamique en raison de ma passion
-          pour l’immobilier et mon engagement constant à apprendre. Mon objectif est de
-          rendre l’expérience d’achat ou de vente de chaque maison aussi simple et
-          enrichissante que possible pour chaque client.
+          {{ $t('aboutPageText2') }}
         </p>
       </div>
     </div>
