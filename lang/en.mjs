@@ -87,7 +87,7 @@ export default {
 
 
     // Footer
-    liens: 'Links',
+    links: 'Links',
 
     aboutPageText1: "Hello! My name is Tristan Barbeau, and I am a young and ambitious individual eager to make a mark in the real estate industry. I bring fresh perspectives and a commitment to providing exceptional service to my clients.",
     aboutPageText2: 'I quickly integrated into this dynamic sector due to my passion for real estate and my constant commitment to learning. My goal is to make the buying or selling experience of each home as simple and rewarding as possible for every client.',

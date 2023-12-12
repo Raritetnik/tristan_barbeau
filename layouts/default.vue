@@ -17,6 +17,8 @@
 import Navigation from "~/layouts/Navigation.vue";
 import Footer from "~/layouts/Footer.vue";
 const local = useI18n();
+const { setLocale } = useI18n();
+setLocale('fr');
 </script>
 <style scoped>
 .active {
