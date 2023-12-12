@@ -4,10 +4,6 @@
   </NuxtLayout>
 </template>
 
-<script setup lang="ts">
-const { defaultLocale } = useI18n();
-defaultLocale.value = 'fr';
-</script>
 <style>
 .page-enter-active,
 .page-leave-active {
