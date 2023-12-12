@@ -40,9 +40,9 @@
         </div>
       </div>
     </div>
-    <div class="mx-auto max-w-[1920px] flex justify-between border-t-2 border-primary pt-6 px-4 lg:px-8">
-      <h3>Tristan Barbeau</h3>
-      <h3>©2023 All rights reserved</h3>
+    <div class="lg:mx-auto max-w-[1920px] flex justify-between border-t-2 border-primary pt-6 px-4 lg:px-8">
+      <h3 class="text-left" >Tristan Barbeau</h3>
+      <h3 class="text-right" >©2023 All rights reserved</h3>
     </div>
   </footer>
 </template>

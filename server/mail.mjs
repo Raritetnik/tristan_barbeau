@@ -24,8 +24,8 @@ export default class Mail {
         try {
             const info = await this.#transporter.sendMail({
                 from: 'lesurvivaliste@outlook.com',
-                to: 'mkodarenko@gmail.com',
-                subject: 'Message de contact',
+                to: 'mkodarenko@gmail.com, clubcluisinebcbg@gmail.com',
+                subject: 'Site Tristan Barbeau - Message de contact',
                 text: message,
                 html:
                     `<p>Nom: ${name}</p>

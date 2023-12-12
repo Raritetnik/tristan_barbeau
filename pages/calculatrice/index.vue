@@ -17,7 +17,7 @@
               type="number"
           /></span>
           <div class="grid grid-cols-2 gap-6">
-        <span class="flex flex-col w-full"
+        <span class="flex flex-col w-full self-end"
         ><label for="tauxInteret">{{ $t('tauxIntéret') }}:</label>
             <input
                 id="tauxInteret"
@@ -29,7 +29,7 @@
                 step="{0.01}"
                 type="number"
             /></span>
-            <span class="flex flex-col w-full"
+            <span class="flex flex-col w-full self-end"
             ><label for="amortissement">{{ $t('periodeAmortissement') }}:</label>
               <span class="grid grid-cols-2 w-full gap-2">
                 <select
@@ -176,9 +176,8 @@ let paiementFraisInteret = ref(0);
 let dureePaiement = ref(12);
 
 const submit = (e: any) => {
-  console.log('Faire le calcul');
   dureePaiement.value =
-      (freqVersement == 'demi-mois') ? 6 :
+      (freqVersement == '2mois') ? 6 :
           (freqVersement == 'semaine') ? 54 :
               (freqVersement == 'bi-semaine') ? 27 : 12;
 
