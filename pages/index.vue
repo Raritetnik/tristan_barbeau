@@ -127,7 +127,8 @@ const { t, locale } = useI18n();
 
 useSeoMeta({
   title: 'Realtor professionnel: estimation, vente | Tristan Barbeau',
-  description: ""
+  description: "Les services d'un expert en propriété, Tristant Barbeau, sont accessibles à tous. " +
+      "Il répond à toutes les questions relatives à l'achat, la vente, les finances, les hypothèques, etc."
 });
 </script>
 
