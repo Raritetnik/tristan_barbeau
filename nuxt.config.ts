@@ -45,8 +45,9 @@ export default defineNuxtConfig({
               { name: "format-detection", content: "telephone=no" },
           ],
           link: [
-              { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fasthand&family=Poppins:wght@400;500;600;800&display=swap'}
-          ]
+              { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fasthand&family=Poppins:wght@400;500;600;800&display=swap'},
+              { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+          ],
       },
       pageTransition: { name: 'page', mode: 'out-in' },
       //layoutTransition: { name: 'layout', mode: 'out-in' },
