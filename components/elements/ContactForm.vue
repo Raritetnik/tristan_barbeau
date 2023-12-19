@@ -37,7 +37,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 w-full">
           <div class="flex flex-col gap-2 border-e-2 border-primary lg:col-span-2">
             <span>{{$t('dispo')}}</span>
-            <span class="grid grid-cols-2 gap-4">
+            <span class="grid lg:grid-cols-2 gap-4">
               <label v-for="item in listeDispos" :for="item.id" class="form-control"
               ><input :id="item.id" v-model="checkedItems" :name="item.id" :value="item.titre" type="checkbox"/>
                 {{ item.titre }}</label>
@@ -45,7 +45,7 @@
           </div>
           <div class="flex flex-col gap-2 md:px-4 pt-4 md:pt-0">
             <span>{{ $t('recherche') }}</span>
-            <span class="grid grid-cols-1 gap-4">
+            <span class="grid lg:grid-cols-1 gap-4">
               <label class="form-control"
               ><input v-model="checkedItemsRadio" :name="action" type="radio" value="Acheter" checked />{{$t('achat')}}</label>
               <label class="form-control"
