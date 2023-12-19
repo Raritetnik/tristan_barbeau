@@ -46,7 +46,7 @@ export default class Mail {
             const info = await this.#transporter.sendMail({
                 from: 'lesurvivaliste@outlook.com',
                 to: 'mkodarenko@gmail.com',
-                subject: 'Demande d\'évaluation de propriété',
+                subject: 'Site Tristan Barbeau - Demande d\'évaluation de propriété',
                 text: adresse,
                 html:
                     `<p>Nom: ${name}</p>

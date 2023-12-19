@@ -62,7 +62,7 @@
               name="message"
           />
         </label>
-        <input type="text" v-model="honeypot" name="honeypot" style="display:none">
+        <input type="text" v-model="honeypot" name="honeypot" style="display:none" class="hidden">
         <Button class="self-start" @click="(e) => {sendMessage(e)}">{{ $t('envoyerMessage') }}</Button>
       </form>
   </div>
@@ -92,7 +92,7 @@ let email = '';
 let message = "";
 let phone = "";
 let dispos = '';
-let honeypot = '';
+let honeypot = "";
 let action = '';
 
 let isSent = ref(false);
