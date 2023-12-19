@@ -47,9 +47,9 @@
             <span>{{ $t('recherche') }}</span>
             <span class="grid grid-cols-1 gap-4">
               <label class="form-control"
-              ><input v-model="checkedItems" :name="action" type="radio" value="Acheter" checked />{{$t('achat')}}</label>
+              ><input v-model="checkedItemsRadio" :name="action" type="radio" value="Acheter" checked />{{$t('achat')}}</label>
               <label class="form-control"
-              ><input v-model="checkedItems" :name="action" type="radio" value="Vendre"/>{{$t('vendre')}}</label>
+              ><input v-model="checkedItemsRadio" :name="action" type="radio" value="Vendre"/>{{$t('vendre')}}</label>
             </span>
           </div>
         </div>
@@ -86,6 +86,7 @@ const listeDispos = [{
 },]
 
 let checkedItems = ref([]);
+let checkedItemsRadio = ref("");
 let nom = "";
 let prenom = '';
 let email = '';
@@ -99,6 +100,7 @@ let isSent = ref(false);
 const sendMessage = async (e: any) => {
   isSent.value = !isSent.value;
   dispos = checkedItems.value.toString();
+  action = checkedItemsRadio.value.toString();
 
 
   await fetch("https://profound-tapioca-02197b.netlify.app/api/contact", {
