@@ -41,7 +41,7 @@ const { t, locale  } = useI18n();
       </li>
     </ul>
     <h2 class="lg:hidden inline-block self-center bg-white rounded-full py-2 px-6 lg:me-4 border-black border-2 text-black text-lg lg:text-xl">
-      514-555-2525
+      <a href="tel:5147065569" >(514) 706 5569</a>
     </h2>
   </nav>
 </template>
