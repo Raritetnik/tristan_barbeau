@@ -94,7 +94,7 @@ let message = "";
 let phone = "";
 let dispos = '';
 let honeypot = "";
-let action = '';
+let action = 'Acheter';
 
 let isSent = ref(false);
 const sendMessage = async (e: any) => {

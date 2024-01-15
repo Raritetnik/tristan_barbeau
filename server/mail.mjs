@@ -20,7 +20,7 @@ export default class Mail {
         });
     }
 
-    async sendContact(receive, message, name, phone = '', dispos = '', action = 'Acheter') {
+    async sendContact(receive, message, name, phone = '', dispos = '', action) {
         try {
             const info = await this.#transporter.sendMail({
                 from: 'lesurvivaliste@outlook.com',
