@@ -103,7 +103,7 @@ const sendMessage = async (e: any) => {
   action = checkedItemsRadio.value.toString();
 
 
-  await fetch("https://profound-tapioca-02197b.netlify.app/api/contact", {
+  await fetch("https://tristanbarbeau.com/api/contact", {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
