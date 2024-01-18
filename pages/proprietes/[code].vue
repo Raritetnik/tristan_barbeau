@@ -9,7 +9,7 @@
           <figure class="grid grid-cols-4 w-full relative">
             <div class="col-span-3 bg-white py-3 px-6 flex justify-between border-[1px] border-primary">
               <span>
-                <h2 class="text-black text-2xl">{{ house['Type'] }}</h2>
+                <h2 class="text-black text-2xl">{{ house['Action'] }}</h2>
                 <p class="text-gray-800" >{{house['Address'] }}</p>
                 <p class="text-gray-800" >MLS® Number: {{ house['code'] }}</p>
               </span>
