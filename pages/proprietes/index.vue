@@ -43,7 +43,7 @@ useSeoMeta({
 const route = useRoute();
 const pageNumber = ref((route.query.page) ? route.query.page : 1);
 
-const {pending, data: houses, refresh} = await useLazyAsyncData('count', () => $fetch('https://api.npoint.io/a43c91bde2ed949a1a4c', {
+const {pending, data: houses, refresh} = await useLazyAsyncData('count', () => $fetch('https://api.npoint.io/d5caf2471c4e98a07de7', {
   params: {
     page: pageNumber.value,
   }
