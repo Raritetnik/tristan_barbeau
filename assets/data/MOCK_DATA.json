@@ -1,54 +1,869 @@
 {
   "liste": [
-    {"code":222744,"Type":"orci","Date Listed":"5/21/2023","IsStatusActive":true,"Address":"4 Melby Point","Active price":634428.98,"Old prices":0,"Zoning":"enim blandit mi in porttitor pede justo eu massa donec","Coordinates":1,"Description":"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.","imageURL":["https://mspublic.centris.ca/media.ashx?id=ADDD250DC8DEA04DDDDDDDDDDC&t=pi&w=640&h=480&sm=c","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":132721,"Type":"dolor","Date Listed":"9/10/2023","IsStatusActive":false,"Address":"81466 Sullivan Court","Active price":800285.8,"Old prices":0,"Zoning":"lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo","Coordinates":2,"Description":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":292875,"Type":"sapien a","Date Listed":"2/15/2023","IsStatusActive":true,"Address":"112 Bobwhite Avenue","Active price":528423.45,"Old prices":0,"Zoning":"vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin","Coordinates":4,"Description":"In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000"]},
-    {"code":935847,"Type":"ac est lacinia","Date Listed":"9/20/2023","IsStatusActive":false,"Address":"961 Macpherson Crossing","Active price":434211.49,"Old prices":0,"Zoning":"in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus","Coordinates":1,"Description":"Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":223258,"Type":"mattis","Date Listed":"10/16/2023","IsStatusActive":true,"Address":"19 Reindahl Terrace","Active price":946658.41,"Old prices":0,"Zoning":"justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet","Coordinates":5,"Description":"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/dddddd/000000"]},
-    {"code":234209,"Type":"quam","Date Listed":"6/1/2023","IsStatusActive":false,"Address":"0 School Terrace","Active price":860252.97,"Old prices":0,"Zoning":"ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec","Coordinates":1,"Description":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":972835,"Type":"accumsan tellus","Date Listed":"2/5/2023","IsStatusActive":false,"Address":"5606 Katie Center","Active price":142438.69,"Old prices":0,"Zoning":"amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas","Coordinates":1,"Description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/dddddd/000000"]},
-    {"code":984409,"Type":"tristique est et","Date Listed":"2/2/2023","IsStatusActive":false,"Address":"6932 Farwell Center","Active price":195539.19,"Old prices":0,"Zoning":"duis aliquam convallis nunc proin at turpis a pede posuere nonummy","Coordinates":1,"Description":"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.","imageURL":["http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/5fa2dd/ffffff"]},
-    {"code":851225,"Type":"nulla nunc","Date Listed":"1/23/2023","IsStatusActive":true,"Address":"9911 Spohn Plaza","Active price":829948.06,"Old prices":0,"Zoning":"sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet","Coordinates":2,"Description":"Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff"]},
-    {"code":163238,"Type":"in","Date Listed":"4/15/2023","IsStatusActive":false,"Address":"0972 Rusk Junction","Active price":292893.95,"Old prices":0,"Zoning":"phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in","Coordinates":1,"Description":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":408386,"Type":"congue","Date Listed":"5/15/2023","IsStatusActive":true,"Address":"771 Grasskamp Court","Active price":851681.65,"Old prices":0,"Zoning":"consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices","Coordinates":1,"Description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.","imageURL":["http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":167277,"Type":"orci mauris","Date Listed":"12/22/2022","IsStatusActive":true,"Address":"27 Farwell Center","Active price":863773.62,"Old prices":0,"Zoning":"tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor","Coordinates":3,"Description":"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/dddddd/000000"]},
-    {"code":146531,"Type":"et","Date Listed":"9/4/2023","IsStatusActive":false,"Address":"7 Meadow Valley Avenue","Active price":696356.48,"Old prices":0,"Zoning":"tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at","Coordinates":4,"Description":"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":454034,"Type":"est","Date Listed":"2/1/2023","IsStatusActive":false,"Address":"1 Manitowish Street","Active price":359323.39,"Old prices":0,"Zoning":"nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod","Coordinates":4,"Description":"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff"]},
-    {"code":481899,"Type":"neque libero convallis","Date Listed":"3/17/2023","IsStatusActive":false,"Address":"35 Twin Pines Terrace","Active price":871144.41,"Old prices":0,"Zoning":"non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros","Coordinates":1,"Description":"Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":321877,"Type":"consequat lectus in","Date Listed":"8/9/2023","IsStatusActive":true,"Address":"2763 Bowman Street","Active price":429089.82,"Old prices":0,"Zoning":"at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi","Coordinates":1,"Description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":120704,"Type":"duis mattis","Date Listed":"1/17/2023","IsStatusActive":true,"Address":"4229 Grim Place","Active price":857547.09,"Old prices":0,"Zoning":"semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum","Coordinates":3,"Description":"In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000"]},
-    {"code":728092,"Type":"interdum","Date Listed":"4/19/2023","IsStatusActive":true,"Address":"24519 Barnett Avenue","Active price":313523.14,"Old prices":0,"Zoning":"non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede","Coordinates":3,"Description":"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/5fa2dd/ffffff"]},
-    {"code":964286,"Type":"eleifend quam","Date Listed":"3/6/2023","IsStatusActive":false,"Address":"74356 Del Mar Drive","Active price":510374.78,"Old prices":0,"Zoning":"tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam","Coordinates":2,"Description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":540796,"Type":"ultrices posuere","Date Listed":"6/12/2023","IsStatusActive":false,"Address":"39 Becker Circle","Active price":719918.28,"Old prices":0,"Zoning":"dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac","Coordinates":2,"Description":"In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":965795,"Type":"suscipit nulla elit","Date Listed":"11/20/2023","IsStatusActive":true,"Address":"350 Main Way","Active price":398254.3,"Old prices":0,"Zoning":"quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien","Coordinates":1,"Description":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/dddddd/000000"]},
-    {"code":661692,"Type":"bibendum felis sed","Date Listed":"10/4/2023","IsStatusActive":true,"Address":"66862 Lunder Road","Active price":405792.58,"Old prices":0,"Zoning":"quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst","Coordinates":1,"Description":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":739596,"Type":"ac consequat metus","Date Listed":"3/9/2023","IsStatusActive":false,"Address":"86 Dunning Park","Active price":102096.05,"Old prices":0,"Zoning":"parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum","Coordinates":1,"Description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":918223,"Type":"dictumst etiam faucibus","Date Listed":"6/7/2023","IsStatusActive":true,"Address":"5 Fisk Point","Active price":915330.4,"Old prices":0,"Zoning":"felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo","Coordinates":6,"Description":"Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff"]},
-    {"code":251390,"Type":"vitae consectetuer eget","Date Listed":"9/18/2023","IsStatusActive":false,"Address":"3835 Village Green Park","Active price":833826.68,"Old prices":0,"Zoning":"morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat","Coordinates":1,"Description":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":126350,"Type":"odio in hac","Date Listed":"8/6/2023","IsStatusActive":true,"Address":"1754 Mcguire Way","Active price":180137.8,"Old prices":0,"Zoning":"hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate","Coordinates":1,"Description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":307866,"Type":"potenti cras","Date Listed":"11/1/2023","IsStatusActive":true,"Address":"9957 Summerview Plaza","Active price":147941.46,"Old prices":0,"Zoning":"tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus","Coordinates":1,"Description":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":537634,"Type":"nunc","Date Listed":"6/9/2023","IsStatusActive":true,"Address":"0 Sage Street","Active price":711902.45,"Old prices":0,"Zoning":"pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna","Coordinates":8,"Description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":145121,"Type":"praesent blandit","Date Listed":"3/14/2023","IsStatusActive":false,"Address":"2 Havey Trail","Active price":124419.07,"Old prices":0,"Zoning":"lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam","Coordinates":2,"Description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/dddddd/000000"]},
-    {"code":978535,"Type":"id luctus","Date Listed":"2/23/2023","IsStatusActive":false,"Address":"529 Spohn Court","Active price":723676.41,"Old prices":0,"Zoning":"metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in","Coordinates":8,"Description":"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":119873,"Type":"curabitur","Date Listed":"5/17/2023","IsStatusActive":true,"Address":"62041 Old Gate Plaza","Active price":662999.82,"Old prices":0,"Zoning":"posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec","Coordinates":3,"Description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":154782,"Type":"erat id mauris","Date Listed":"6/18/2023","IsStatusActive":false,"Address":"7 Division Parkway","Active price":898804.02,"Old prices":0,"Zoning":"pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula","Coordinates":3,"Description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":800208,"Type":"morbi","Date Listed":"11/22/2023","IsStatusActive":true,"Address":"02672 Ronald Regan Center","Active price":702645.79,"Old prices":0,"Zoning":"orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur","Coordinates":1,"Description":"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff"]},
-    {"code":190250,"Type":"eleifend luctus ultricies","Date Listed":"1/17/2023","IsStatusActive":false,"Address":"21851 Jackson Way","Active price":942950.82,"Old prices":0,"Zoning":"libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in","Coordinates":1,"Description":"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/dddddd/000000"]},
-    {"code":962228,"Type":"eros vestibulum ac","Date Listed":"5/26/2023","IsStatusActive":true,"Address":"932 Di Loreto Way","Active price":579531.39,"Old prices":0,"Zoning":"felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed","Coordinates":1,"Description":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.","imageURL":["http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff"]},
-    {"code":585507,"Type":"morbi vestibulum","Date Listed":"3/1/2023","IsStatusActive":false,"Address":"9 Mendota Place","Active price":169218.96,"Old prices":0,"Zoning":"consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus","Coordinates":1,"Description":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.","imageURL":["http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":960568,"Type":"vestibulum","Date Listed":"10/3/2023","IsStatusActive":true,"Address":"070 Del Mar Drive","Active price":925387.76,"Old prices":0,"Zoning":"nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in","Coordinates":1,"Description":"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/5fa2dd/ffffff"]},
-    {"code":732602,"Type":"feugiat","Date Listed":"7/1/2023","IsStatusActive":true,"Address":"2829 Kings Drive","Active price":768605.12,"Old prices":0,"Zoning":"in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea","Coordinates":4,"Description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":410739,"Type":"nunc donec quis","Date Listed":"9/28/2023","IsStatusActive":true,"Address":"8 Chive Avenue","Active price":764073.33,"Old prices":0,"Zoning":"donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio","Coordinates":2,"Description":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":853668,"Type":"eu magna vulputate","Date Listed":"5/21/2023","IsStatusActive":false,"Address":"8 Merchant Plaza","Active price":694611.63,"Old prices":0,"Zoning":"semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero","Coordinates":3,"Description":"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.","imageURL":["http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":217071,"Type":"mi sit","Date Listed":"3/22/2023","IsStatusActive":true,"Address":"5451 Oriole Center","Active price":132616.84,"Old prices":0,"Zoning":"ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue","Coordinates":3,"Description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.","imageURL":["http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":355335,"Type":"vestibulum sed","Date Listed":"4/12/2023","IsStatusActive":true,"Address":"2 Pierstorff Crossing","Active price":405504.39,"Old prices":0,"Zoning":"mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate","Coordinates":4,"Description":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/dddddd/000000"]},
-    {"code":952180,"Type":"eget semper","Date Listed":"7/28/2023","IsStatusActive":false,"Address":"6207 Messerschmidt Plaza","Active price":344553.46,"Old prices":0,"Zoning":"habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut","Coordinates":1,"Description":"Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":390113,"Type":"adipiscing elit proin","Date Listed":"1/9/2023","IsStatusActive":false,"Address":"6945 Onsgard Lane","Active price":939495.54,"Old prices":0,"Zoning":"phasellus in felis donec semper sapien a libero nam dui","Coordinates":2,"Description":"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":469616,"Type":"volutpat","Date Listed":"9/10/2023","IsStatusActive":false,"Address":"7914 Bartillon Parkway","Active price":997637.27,"Old prices":0,"Zoning":"est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique","Coordinates":1,"Description":"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.","imageURL":["http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":253224,"Type":"fusce consequat nulla","Date Listed":"6/12/2023","IsStatusActive":false,"Address":"22 Fair Oaks Alley","Active price":712812.12,"Old prices":0,"Zoning":"vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor","Coordinates":2,"Description":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.","imageURL":["http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/ff4444/ffffff"]},
-    {"code":634583,"Type":"eu nibh quisque","Date Listed":"4/9/2023","IsStatusActive":true,"Address":"566 Everett Lane","Active price":327147.06,"Old prices":0,"Zoning":"odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac","Coordinates":1,"Description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff"]},
-    {"code":574525,"Type":"curabitur","Date Listed":"2/13/2023","IsStatusActive":true,"Address":"2 Fieldstone Drive","Active price":880813.95,"Old prices":0,"Zoning":"pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam","Coordinates":3,"Description":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.","imageURL":["http://dummyimage.com/600x400.png/ff4444/ffffff","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/cc0000/ffffff"]},
-    {"code":410086,"Type":"nam","Date Listed":"11/23/2022","IsStatusActive":true,"Address":"46 Bellgrove Park","Active price":819600.25,"Old prices":0,"Zoning":"amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus","Coordinates":5,"Description":"Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.","imageURL":["http://dummyimage.com/600x400.png/5fa2dd/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/cc0000/ffffff","http://dummyimage.com/600x400.png/dddddd/000000"]},
-    {"code":375935,"Type":"adipiscing lorem vitae","Date Listed":"6/20/2023","IsStatusActive":false,"Address":"231 Talmadge Park","Active price":834491.73,"Old prices":0,"Zoning":"phasellus id sapien in sapien iaculis congue vivamus metus arcu","Coordinates":4,"Description":"Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.","imageURL":["http://dummyimage.com/600x400.png/dddddd/000000","http://dummyimage.com/600x400.png/cc0000/ffffff"]}
+    {
+      "code": 222744,
+      "Type": "orci",
+      "Date Listed": "5/21/2023",
+      "IsStatusActive": true,
+      "Address": "4 Melby Point",
+      "Active price": 634428.98,
+      "Old prices": 0,
+      "Zoning": "enim blandit mi in porttitor pede justo eu massa donec",
+      "Coordinates": 1,
+      "Description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+      "imageURL": [
+        "https://mspublic.centris.ca/media.ashx?id=ADDD250DC8DEA04DDDDDDDDDDC&t=pi&w=640&h=480&sm=c",
+        "https://propriodirect.com/media/properties/photos/original/ADD432ADC3177C6DD94D7AAD1C.jpg?v=344380851",
+        "https://propriodirect.com/media/properties/photos/small/ADD432ADC3177EDDD94D7AAD4C.jpg?v=344380852",
+        "https://propriodirect.com/media/properties/photos/small/ADD432ADC3177E0DD94D7AAD24.jpg?v=344380853",
+        "https://propriodirect.com/media/properties/photos/small/ADD432ADC3177E2DD94D7AADCF.jpg?v=344380854"
+      ]
+    },
+    {
+      "code": 132721,
+      "Type": "dolor",
+      "Date Listed": "9/10/2023",
+      "IsStatusActive": false,
+      "Address": "81466 Sullivan Court",
+      "Active price": 800285.8,
+      "Old prices": 0,
+      "Zoning": "lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo",
+      "Coordinates": 2,
+      "Description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 292875,
+      "Type": "sapien a",
+      "Date Listed": "2/15/2023",
+      "IsStatusActive": true,
+      "Address": "112 Bobwhite Avenue",
+      "Active price": 528423.45,
+      "Old prices": 0,
+      "Zoning": "vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin",
+      "Coordinates": 4,
+      "Description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000"
+      ]
+    },
+    {
+      "code": 935847,
+      "Type": "ac est lacinia",
+      "Date Listed": "9/20/2023",
+      "IsStatusActive": false,
+      "Address": "961 Macpherson Crossing",
+      "Active price": 434211.49,
+      "Old prices": 0,
+      "Zoning": "in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus",
+      "Coordinates": 1,
+      "Description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 223258,
+      "Type": "mattis",
+      "Date Listed": "10/16/2023",
+      "IsStatusActive": true,
+      "Address": "19 Reindahl Terrace",
+      "Active price": 946658.41,
+      "Old prices": 0,
+      "Zoning": "justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet",
+      "Coordinates": 5,
+      "Description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/dddddd/000000"
+      ]
+    },
+    {
+      "code": 234209,
+      "Type": "quam",
+      "Date Listed": "6/1/2023",
+      "IsStatusActive": false,
+      "Address": "0 School Terrace",
+      "Active price": 860252.97,
+      "Old prices": 0,
+      "Zoning": "ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec",
+      "Coordinates": 1,
+      "Description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 972835,
+      "Type": "accumsan tellus",
+      "Date Listed": "2/5/2023",
+      "IsStatusActive": false,
+      "Address": "5606 Katie Center",
+      "Active price": 142438.69,
+      "Old prices": 0,
+      "Zoning": "amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas",
+      "Coordinates": 1,
+      "Description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000"
+      ]
+    },
+    {
+      "code": 984409,
+      "Type": "tristique est et",
+      "Date Listed": "2/2/2023",
+      "IsStatusActive": false,
+      "Address": "6932 Farwell Center",
+      "Active price": 195539.19,
+      "Old prices": 0,
+      "Zoning": "duis aliquam convallis nunc proin at turpis a pede posuere nonummy",
+      "Coordinates": 1,
+      "Description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff"
+      ]
+    },
+    {
+      "code": 851225,
+      "Type": "nulla nunc",
+      "Date Listed": "1/23/2023",
+      "IsStatusActive": true,
+      "Address": "9911 Spohn Plaza",
+      "Active price": 829948.06,
+      "Old prices": 0,
+      "Zoning": "sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet",
+      "Coordinates": 2,
+      "Description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff"
+      ]
+    },
+    {
+      "code": 163238,
+      "Type": "in",
+      "Date Listed": "4/15/2023",
+      "IsStatusActive": false,
+      "Address": "0972 Rusk Junction",
+      "Active price": 292893.95,
+      "Old prices": 0,
+      "Zoning": "phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in",
+      "Coordinates": 1,
+      "Description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 408386,
+      "Type": "congue",
+      "Date Listed": "5/15/2023",
+      "IsStatusActive": true,
+      "Address": "771 Grasskamp Court",
+      "Active price": 851681.65,
+      "Old prices": 0,
+      "Zoning": "consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices",
+      "Coordinates": 1,
+      "Description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 167277,
+      "Type": "orci mauris",
+      "Date Listed": "12/22/2022",
+      "IsStatusActive": true,
+      "Address": "27 Farwell Center",
+      "Active price": 863773.62,
+      "Old prices": 0,
+      "Zoning": "tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor",
+      "Coordinates": 3,
+      "Description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/dddddd/000000"
+      ]
+    },
+    {
+      "code": 146531,
+      "Type": "et",
+      "Date Listed": "9/4/2023",
+      "IsStatusActive": false,
+      "Address": "7 Meadow Valley Avenue",
+      "Active price": 696356.48,
+      "Old prices": 0,
+      "Zoning": "tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at",
+      "Coordinates": 4,
+      "Description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 454034,
+      "Type": "est",
+      "Date Listed": "2/1/2023",
+      "IsStatusActive": false,
+      "Address": "1 Manitowish Street",
+      "Active price": 359323.39,
+      "Old prices": 0,
+      "Zoning": "nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod",
+      "Coordinates": 4,
+      "Description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff"
+      ]
+    },
+    {
+      "code": 481899,
+      "Type": "neque libero convallis",
+      "Date Listed": "3/17/2023",
+      "IsStatusActive": false,
+      "Address": "35 Twin Pines Terrace",
+      "Active price": 871144.41,
+      "Old prices": 0,
+      "Zoning": "non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros",
+      "Coordinates": 1,
+      "Description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 321877,
+      "Type": "consequat lectus in",
+      "Date Listed": "8/9/2023",
+      "IsStatusActive": true,
+      "Address": "2763 Bowman Street",
+      "Active price": 429089.82,
+      "Old prices": 0,
+      "Zoning": "at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi",
+      "Coordinates": 1,
+      "Description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 120704,
+      "Type": "duis mattis",
+      "Date Listed": "1/17/2023",
+      "IsStatusActive": true,
+      "Address": "4229 Grim Place",
+      "Active price": 857547.09,
+      "Old prices": 0,
+      "Zoning": "semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum",
+      "Coordinates": 3,
+      "Description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000"
+      ]
+    },
+    {
+      "code": 728092,
+      "Type": "interdum",
+      "Date Listed": "4/19/2023",
+      "IsStatusActive": true,
+      "Address": "24519 Barnett Avenue",
+      "Active price": 313523.14,
+      "Old prices": 0,
+      "Zoning": "non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede",
+      "Coordinates": 3,
+      "Description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff"
+      ]
+    },
+    {
+      "code": 964286,
+      "Type": "eleifend quam",
+      "Date Listed": "3/6/2023",
+      "IsStatusActive": false,
+      "Address": "74356 Del Mar Drive",
+      "Active price": 510374.78,
+      "Old prices": 0,
+      "Zoning": "tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam",
+      "Coordinates": 2,
+      "Description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 540796,
+      "Type": "ultrices posuere",
+      "Date Listed": "6/12/2023",
+      "IsStatusActive": false,
+      "Address": "39 Becker Circle",
+      "Active price": 719918.28,
+      "Old prices": 0,
+      "Zoning": "dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac",
+      "Coordinates": 2,
+      "Description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 965795,
+      "Type": "suscipit nulla elit",
+      "Date Listed": "11/20/2023",
+      "IsStatusActive": true,
+      "Address": "350 Main Way",
+      "Active price": 398254.3,
+      "Old prices": 0,
+      "Zoning": "quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien",
+      "Coordinates": 1,
+      "Description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/dddddd/000000"
+      ]
+    },
+    {
+      "code": 661692,
+      "Type": "bibendum felis sed",
+      "Date Listed": "10/4/2023",
+      "IsStatusActive": true,
+      "Address": "66862 Lunder Road",
+      "Active price": 405792.58,
+      "Old prices": 0,
+      "Zoning": "quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst",
+      "Coordinates": 1,
+      "Description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 739596,
+      "Type": "ac consequat metus",
+      "Date Listed": "3/9/2023",
+      "IsStatusActive": false,
+      "Address": "86 Dunning Park",
+      "Active price": 102096.05,
+      "Old prices": 0,
+      "Zoning": "parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum",
+      "Coordinates": 1,
+      "Description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 918223,
+      "Type": "dictumst etiam faucibus",
+      "Date Listed": "6/7/2023",
+      "IsStatusActive": true,
+      "Address": "5 Fisk Point",
+      "Active price": 915330.4,
+      "Old prices": 0,
+      "Zoning": "felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo",
+      "Coordinates": 6,
+      "Description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff"
+      ]
+    },
+    {
+      "code": 251390,
+      "Type": "vitae consectetuer eget",
+      "Date Listed": "9/18/2023",
+      "IsStatusActive": false,
+      "Address": "3835 Village Green Park",
+      "Active price": 833826.68,
+      "Old prices": 0,
+      "Zoning": "morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat",
+      "Coordinates": 1,
+      "Description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 126350,
+      "Type": "odio in hac",
+      "Date Listed": "8/6/2023",
+      "IsStatusActive": true,
+      "Address": "1754 Mcguire Way",
+      "Active price": 180137.8,
+      "Old prices": 0,
+      "Zoning": "hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate",
+      "Coordinates": 1,
+      "Description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 307866,
+      "Type": "potenti cras",
+      "Date Listed": "11/1/2023",
+      "IsStatusActive": true,
+      "Address": "9957 Summerview Plaza",
+      "Active price": 147941.46,
+      "Old prices": 0,
+      "Zoning": "tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus",
+      "Coordinates": 1,
+      "Description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 537634,
+      "Type": "nunc",
+      "Date Listed": "6/9/2023",
+      "IsStatusActive": true,
+      "Address": "0 Sage Street",
+      "Active price": 711902.45,
+      "Old prices": 0,
+      "Zoning": "pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna",
+      "Coordinates": 8,
+      "Description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 145121,
+      "Type": "praesent blandit",
+      "Date Listed": "3/14/2023",
+      "IsStatusActive": false,
+      "Address": "2 Havey Trail",
+      "Active price": 124419.07,
+      "Old prices": 0,
+      "Zoning": "lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam",
+      "Coordinates": 2,
+      "Description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000"
+      ]
+    },
+    {
+      "code": 978535,
+      "Type": "id luctus",
+      "Date Listed": "2/23/2023",
+      "IsStatusActive": false,
+      "Address": "529 Spohn Court",
+      "Active price": 723676.41,
+      "Old prices": 0,
+      "Zoning": "metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in",
+      "Coordinates": 8,
+      "Description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 119873,
+      "Type": "curabitur",
+      "Date Listed": "5/17/2023",
+      "IsStatusActive": true,
+      "Address": "62041 Old Gate Plaza",
+      "Active price": 662999.82,
+      "Old prices": 0,
+      "Zoning": "posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec",
+      "Coordinates": 3,
+      "Description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 154782,
+      "Type": "erat id mauris",
+      "Date Listed": "6/18/2023",
+      "IsStatusActive": false,
+      "Address": "7 Division Parkway",
+      "Active price": 898804.02,
+      "Old prices": 0,
+      "Zoning": "pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula",
+      "Coordinates": 3,
+      "Description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 800208,
+      "Type": "morbi",
+      "Date Listed": "11/22/2023",
+      "IsStatusActive": true,
+      "Address": "02672 Ronald Regan Center",
+      "Active price": 702645.79,
+      "Old prices": 0,
+      "Zoning": "orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur",
+      "Coordinates": 1,
+      "Description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff"
+      ]
+    },
+    {
+      "code": 190250,
+      "Type": "eleifend luctus ultricies",
+      "Date Listed": "1/17/2023",
+      "IsStatusActive": false,
+      "Address": "21851 Jackson Way",
+      "Active price": 942950.82,
+      "Old prices": 0,
+      "Zoning": "libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in",
+      "Coordinates": 1,
+      "Description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000"
+      ]
+    },
+    {
+      "code": 962228,
+      "Type": "eros vestibulum ac",
+      "Date Listed": "5/26/2023",
+      "IsStatusActive": true,
+      "Address": "932 Di Loreto Way",
+      "Active price": 579531.39,
+      "Old prices": 0,
+      "Zoning": "felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed",
+      "Coordinates": 1,
+      "Description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff"
+      ]
+    },
+    {
+      "code": 585507,
+      "Type": "morbi vestibulum",
+      "Date Listed": "3/1/2023",
+      "IsStatusActive": false,
+      "Address": "9 Mendota Place",
+      "Active price": 169218.96,
+      "Old prices": 0,
+      "Zoning": "consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus",
+      "Coordinates": 1,
+      "Description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 960568,
+      "Type": "vestibulum",
+      "Date Listed": "10/3/2023",
+      "IsStatusActive": true,
+      "Address": "070 Del Mar Drive",
+      "Active price": 925387.76,
+      "Old prices": 0,
+      "Zoning": "nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in",
+      "Coordinates": 1,
+      "Description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff"
+      ]
+    },
+    {
+      "code": 732602,
+      "Type": "feugiat",
+      "Date Listed": "7/1/2023",
+      "IsStatusActive": true,
+      "Address": "2829 Kings Drive",
+      "Active price": 768605.12,
+      "Old prices": 0,
+      "Zoning": "in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea",
+      "Coordinates": 4,
+      "Description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 410739,
+      "Type": "nunc donec quis",
+      "Date Listed": "9/28/2023",
+      "IsStatusActive": true,
+      "Address": "8 Chive Avenue",
+      "Active price": 764073.33,
+      "Old prices": 0,
+      "Zoning": "donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio",
+      "Coordinates": 2,
+      "Description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 853668,
+      "Type": "eu magna vulputate",
+      "Date Listed": "5/21/2023",
+      "IsStatusActive": false,
+      "Address": "8 Merchant Plaza",
+      "Active price": 694611.63,
+      "Old prices": 0,
+      "Zoning": "semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero",
+      "Coordinates": 3,
+      "Description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 217071,
+      "Type": "mi sit",
+      "Date Listed": "3/22/2023",
+      "IsStatusActive": true,
+      "Address": "5451 Oriole Center",
+      "Active price": 132616.84,
+      "Old prices": 0,
+      "Zoning": "ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue",
+      "Coordinates": 3,
+      "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 355335,
+      "Type": "vestibulum sed",
+      "Date Listed": "4/12/2023",
+      "IsStatusActive": true,
+      "Address": "2 Pierstorff Crossing",
+      "Active price": 405504.39,
+      "Old prices": 0,
+      "Zoning": "mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate",
+      "Coordinates": 4,
+      "Description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000"
+      ]
+    },
+    {
+      "code": 952180,
+      "Type": "eget semper",
+      "Date Listed": "7/28/2023",
+      "IsStatusActive": false,
+      "Address": "6207 Messerschmidt Plaza",
+      "Active price": 344553.46,
+      "Old prices": 0,
+      "Zoning": "habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut",
+      "Coordinates": 1,
+      "Description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 390113,
+      "Type": "adipiscing elit proin",
+      "Date Listed": "1/9/2023",
+      "IsStatusActive": false,
+      "Address": "6945 Onsgard Lane",
+      "Active price": 939495.54,
+      "Old prices": 0,
+      "Zoning": "phasellus in felis donec semper sapien a libero nam dui",
+      "Coordinates": 2,
+      "Description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 469616,
+      "Type": "volutpat",
+      "Date Listed": "9/10/2023",
+      "IsStatusActive": false,
+      "Address": "7914 Bartillon Parkway",
+      "Active price": 997637.27,
+      "Old prices": 0,
+      "Zoning": "est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique",
+      "Coordinates": 1,
+      "Description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 253224,
+      "Type": "fusce consequat nulla",
+      "Date Listed": "6/12/2023",
+      "IsStatusActive": false,
+      "Address": "22 Fair Oaks Alley",
+      "Active price": 712812.12,
+      "Old prices": 0,
+      "Zoning": "vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor",
+      "Coordinates": 2,
+      "Description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/ff4444/ffffff"
+      ]
+    },
+    {
+      "code": 634583,
+      "Type": "eu nibh quisque",
+      "Date Listed": "4/9/2023",
+      "IsStatusActive": true,
+      "Address": "566 Everett Lane",
+      "Active price": 327147.06,
+      "Old prices": 0,
+      "Zoning": "odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac",
+      "Coordinates": 1,
+      "Description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff"
+      ]
+    },
+    {
+      "code": 574525,
+      "Type": "curabitur",
+      "Date Listed": "2/13/2023",
+      "IsStatusActive": true,
+      "Address": "2 Fieldstone Drive",
+      "Active price": 880813.95,
+      "Old prices": 0,
+      "Zoning": "pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam",
+      "Coordinates": 3,
+      "Description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/ff4444/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    },
+    {
+      "code": 410086,
+      "Type": "nam",
+      "Date Listed": "11/23/2022",
+      "IsStatusActive": true,
+      "Address": "46 Bellgrove Park",
+      "Active price": 819600.25,
+      "Old prices": 0,
+      "Zoning": "amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus",
+      "Coordinates": 5,
+      "Description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/5fa2dd/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff",
+        "http://dummyimage.com/600x400.png/dddddd/000000"
+      ]
+    },
+    {
+      "code": 375935,
+      "Type": "adipiscing lorem vitae",
+      "Date Listed": "6/20/2023",
+      "IsStatusActive": false,
+      "Address": "231 Talmadge Park",
+      "Active price": 834491.73,
+      "Old prices": 0,
+      "Zoning": "phasellus id sapien in sapien iaculis congue vivamus metus arcu",
+      "Coordinates": 4,
+      "Description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+      "imageURL": [
+        "http://dummyimage.com/600x400.png/dddddd/000000",
+        "http://dummyimage.com/600x400.png/cc0000/ffffff"
+      ]
+    }
   ]
 }

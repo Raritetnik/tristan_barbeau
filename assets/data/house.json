@@ -1979,6 +1979,21 @@
       "Coordinates": "49.2251559900--65.7356104200",
       "Description": "Terrain boisé de plus de 90 000 pieds carrés dans le secteur de Saint-Maxime-du-Mont-louis. L'aqueduc est desservie par la municipalité. Ce terrain vous attend pour de nombreux projets et vous accueillir avec votre projet immobilier. Venez voir vous serez charmez par la mer et les montagnes qui sont tout près.",
       "imageURL": "https://mspublic.centris.ca/media.ashx?id=ADDD250DC99880DDDDDDDDDDDC&t=pi&w=640&h=480&sm=c"
-    }
+    },
+    {
+      "code": 523401351,
+      "Type": "Land for sale",
+      "Date Listed": "2023-08-31",
+      "IsStatusActive": true,
+      "Address": "Chemin des Hauts-Boisés, Mont-Tremblant, Neighbourhood Village Mont-Tremblant",
+      "Size": "2996512 sqft",
+      "Active price": 899000,
+      "Taxes": true,
+      "Old prices": 0,
+      "Zoning": "Residential, Resort",
+      "Coordinates": "46.2116324900--74.6488065200",
+      "Description": "Beautiful large 68 acres property with deeded access to P'tit train du Nord bike path and across the street from lake Mercier (access to be validated), ideal for development project or private estate. The Haut-Boisés road is private and included in the sale.  10 to 15 single family homes can be built.  2007 environmental assessment and planning notice available. Possibility to also acquire 2 neighboring lands with an area of 170 acres for a project total of 238 acres.",
+      "imageURL": "https://propriodirect.com/media/properties/photos/original/ADD432ADC3177C6DD94D7AAD1C.jpg?v=344380851",
+    },
   ]
 }
