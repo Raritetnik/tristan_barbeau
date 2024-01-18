@@ -35,15 +35,15 @@
               <img v-if="house['imageURL'].length >= 2" v-for="image in house['imageURL'].slice(1,5)" loading="lazy" class="border-[1px] border-primary object-cover w-full" :src="image" alt="Secondary image" />
             </div>
           </div>
-          <Button class="self-end mt-4">Voir sur site Centris</Button>
+          <a class="self-end mt-4" :href="house['CentrisBtnLink']"><Button>Voir sur site Centris</Button></a>
         </div>
       </Section>
       <Section class="max-h-none">
-        <div class="w-full px-8 pb-20">
+        <div class="w-full px-8 pb-2">
           <span class="flex justify-between items-center mb-6">
           <Titre>Features</Titre>
             </span>
-          <div class="grid grid-cols-2 md:grid-cols-4 h-full gap-x-12">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-y-6 gap-x-12">
             <span v-for="info in infoToDisplay">
               <h3 class="text-xl font-bold pb-2">{{ info.name }}</h3>
               <p>{{ house[info.link] }}</p>
@@ -81,34 +81,25 @@ var lightBoxUrl = ref('');
 var isClosed = ref(true);
 const { code } = useRoute().params;
 let isDropped = ref(true);
-const {pending, data: house } = await useLazyAsyncData('house', () => $fetch('/api/house', {
+const {pending, data: house } = await useLazyAsyncData('house', () => $fetch('https://api.npoint.io/d5caf2471c4e98a07de7', {
   params: {
     houseId: code,
   }
 }).then(jsonData => {
-  lightBoxUrl.value = jsonData['imageURL'][0];
-  return jsonData}));
-
-/*
-<NuxtImg loading="lazy"
-                 :src="house['imageURL'][0]" class="object-cover w-full min-h-full" />
-        <div class="grid  grid-cols-2 grid-rows-2 gap-2">
-          <NuxtImg v-for="image in house['imageURL'].slice(1,5)" loading="lazy" :placeholder="[600, 400]" class="object-cover w-full" :src="image" />
-        </div>
- */
+  const result = jsonData['liste'].filter(event => {
+        return event.code == code;
+  })
+  lightBoxUrl.value = result[0]['imageURL'][0];
+  return result[0]}));
 
 const infoToDisplay = [
-  {name: "Use of property", link: "code"},
-  {name: "Building style", link: "Type"},
-  {name: "Year built", link: "Date Listed"},
-  {name: "Building area (at ground level)", link: "Address"},
-  {name: "Lot area", link: "Zoning"},
-  {name: "Parking (total)", link: "IsStatusActive"},
-  {name: "Number of units", link: "Coordinates"},
-  {name: "Residential units", link: "Date Listed"},
-  {name: "Main unit", link: "Type"},
-  {name: "Potential gross revenue", link: "Type"},
-  {name: "Additional features", link: "Address"},
+  {name: "Code Centris", link: "code"},
+  {name: "Style de bâtiment", link: "Type"},
+  {name: "Année de construction", link: "BuildYear"},
+  {name: "Installations", link: "Facilities"},
+  {name: "Stationnement", link: "Parking"},
+  {name: "Pièces", link: "Rooms"},
+  {name: "Chambres", link: "Chambres"},
 ];
 
 const openImageLightbox = (e: any) => {

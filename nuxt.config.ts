@@ -23,12 +23,12 @@ export default defineNuxtConfig({
         locales: ['fr', 'en'],
         defaultLocale: 'fr',
     },
-  image: {
+  /*image: {
       provider: 'netlify',
       netlify: {
           baseURl: process.env.IMAGES_URL
       },
-  },
+  },*/
   delayHydration: {
       mode: 'mount',
   },
