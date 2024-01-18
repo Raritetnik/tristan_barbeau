@@ -43,7 +43,7 @@
           <span class="flex justify-between items-center mb-6">
           <Titre>Features</Titre>
             </span>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-y-6 gap-x-12">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-10">
             <span v-for="info in infoToDisplay">
               <h3 class="text-xl font-bold pb-2">{{ info.name }}</h3>
               <p>{{ house[info.link] }}</p>
