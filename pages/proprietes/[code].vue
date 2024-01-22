@@ -7,25 +7,23 @@
       <Section>
         <div class="pt-20 px-8 flex flex-col">
           <figure class="grid grid-cols-4 w-full relative">
-            <div class="col-span-3 bg-white py-3 px-6 flex justify-between border-[1px] border-primary">
-              <span>
+            <div class="col-span-3 bg-white py-3 px-6 flex flex-col lg:flex-row justify-between border-[1px] border-primary">
+              <span class="flex flex-col">
                 <h2 class="text-black text-2xl">{{ house['Action'] }}</h2>
                 <p class="text-gray-800" >{{house['Address'] }}</p>
                 <p class="text-gray-800" >MLS® Number: {{ house['code'] }}</p>
               </span>
               <h2 class="text-primary text-3xl">{{ house['Active price'].toLocaleString('fr-CA', { style: 'currency', currency: 'CAD'}) }}</h2>
             </div>
-            <div @click="openContactMenu" class="col-span-1 bg-[#E4E4E4] flex gap-2 items-center justify-between py-3 px-6 border-primary border-[1px] cursor-pointer relative">
+            <div @click="openContactMenu" class="col-span-1 bg-[#E4E4E4] flex flex-col md:flex-row gap-2 items-center justify-center md:justify-between py-3 px-6 border-primary border-[1px] cursor-pointer relative">
               <button class="text-primary text-bold">Contact Tristan Barbeau</button>
               <img src="/assets/images/_.png" alt="arrow down" class="arrow" :class="{rotateArrow: isDropped}">
             </div>
             <div :class="{contactMenuIsOpen: isDropped}" class="contactMenu absolute top-full right-0 bg-white">
               <ul class="text-black contMenu text-right">
-                <li class="px-6 py-2"><NuxtLink to="#">Menu ggg</NuxtLink></li>
-                <li class="px-6 py-2"><NuxtLink to="#">Menu fsdfh</NuxtLink></li>
-                <li class="px-6 py-2"><NuxtLink to="#">Menu kdis</NuxtLink></li>
-                <li class="px-6 py-2"><NuxtLink to="#">Menu dfssdg</NuxtLink></li>
-              </ul>
+                <li class="px-6 py-2"><NuxtLink to="tel:5147065569">(514) 706 - 5569</NuxtLink></li>
+                <li class="px-6 py-2"><NuxtLink to="mailto:">tristanbarbeau@gmail.com</NuxtLink></li>
+                </ul>
             </div>
           </figure>
           <div class="grid lg:grid-cols-2 gap-2" @click="e => openImageLightbox(e)">
@@ -35,13 +33,13 @@
               <img v-if="house['imageURL'].length >= 2" v-for="image in house['imageURL'].slice(1,5)" loading="lazy" class="border-[1px] border-primary object-cover w-full" :src="image" alt="Secondary image" />
             </div>
           </div>
-          <a class="self-end mt-4" :href="house['CentrisBtnLink']" target="_blank"><Button>Voir sur site Centris</Button></a>
+          <a class="self-end mt-4" :href="house['CentrisBtnLink']" target="_blank"><Button>{{ $t('btnCentris') }}</Button></a>
         </div>
       </Section>
       <Section class="max-h-none">
         <div class="w-full px-8 pb-2">
           <span class="flex justify-between items-center mb-6">
-          <Titre>Features</Titre>
+          <Titre>{{ $t('features') }}</Titre>
             </span>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-10">
             <span v-for="info in infoToDisplay">

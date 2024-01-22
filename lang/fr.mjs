@@ -44,7 +44,7 @@ export default {
     contactezMoi: 'Contactez-moi',
     proprietes: 'Propriétés',
 
-    incredProp: 'Proprieté incroyable',
+    incredProp: 'Propriétés incroyables',
 
     contactTitle: 'Quelle est la valeur de ma maison?',
     thanksContact: 'Merci de m\'avoir contacté!',
@@ -109,4 +109,8 @@ export default {
         '          pour l’immobilier et mon engagement constant à apprendre. Mon objectif est de' +
         '          rendre l’expérience d’achat ou de vente de chaque maison aussi simple et' +
         '          enrichissante que possible pour chaque client.',
+
+    features: "Caractéristiques",
+
+    btnCentris: "Voir sur site Centris",
 }
