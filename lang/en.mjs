@@ -31,8 +31,8 @@ export default {
     contactezMoi: 'Contact me',
     proprietes: 'Properties',
 
-    incredProp: 'Incredible property',
-    contactTitle: 'What is the value of my house?',
+    incredProp: 'Incredibles properties',
+    contactTitle: 'Want more information?',
     thanksContact: 'Thank you for contacting me!',
     thanksEvaluation: 'Thank you for submitting the review request!',
     contactBack: 'I will call you back as soon as possible!',
@@ -53,7 +53,7 @@ export default {
     envoyerMessage: 'Send Message',
 
     details: 'See more',
-    titleEvaluation: 'Want more information?',
+    titleEvaluation: 'What is the value of my house?',
 
     // Form evaluation
     adresse: 'Address of your property',
@@ -89,7 +89,7 @@ export default {
     // Footer
     links: 'Links',
 
-    aboutPageText1: "Hello! My name is Tristan Barbeau, and I am a young and ambitious individual eager to make a mark in the real estate industry. I bring fresh perspectives and a commitment to providing exceptional service to my clients.",
+    aboutPageText1: "Hi! My name is Tristan Barbeau, and I am a young and ambitious individual eager to make a mark in the real estate industry. I bring fresh perspectives and a commitment to providing exceptional service to my clients.",
     aboutPageText2: 'I quickly integrated into this dynamic sector due to my passion for real estate and my constant commitment to learning. My goal is to make the buying or selling experience of each home as simple and rewarding as possible for every client.',
     features: "Features",
     btnCentris: "View on the Centris website",

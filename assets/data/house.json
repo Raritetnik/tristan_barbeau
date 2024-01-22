@@ -2,6 +2,7 @@
   "liste": [
     {
       "code": 16933733,
+      "Action": "Maison à vendre",
       "Type": "Style de vie",
       "Date Listed": "5/21/2023",
       "IsStatusActive": true,
@@ -25,11 +26,12 @@
     },
     {
       "code": 11668582,
+      "Action": "Condo à vendre",
       "Type": "Style de vie",
       "Date Listed": "5/21/2023",
       "IsStatusActive": true,
-      "Address": "1715 Rue du Skieur, Sainte-Adèle, Québec",
-      "Active price": 727000,
+      "Address": "3065, boulevard René-Laennec, app. 201, Laval (Auteuil)",
+      "Active price": 380000,
       "Rooms": 6,
       "Chambres": 2,
       "Facilities": "1 salle de bain",
@@ -45,6 +47,6 @@
         "https://mspublic.centris.ca/media.ashx?id=ADDD250DC3177E2DDDDDDDDDDC&t=pi&w=320&h=240&sm=c",
         "https://mspublic.centris.ca/media.ashx?id=ADDD250DC3177C2DDDDDDDDDD2&t=pi&w=320&h=240&sm=c"
       ]
-    },
+    }
   ]
 }

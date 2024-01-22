@@ -46,7 +46,7 @@ export default {
 
     incredProp: 'Propriétés incroyables',
 
-    contactTitle: 'Quelle est la valeur de ma maison?',
+    contactTitle: 'Vous voulez plus d\'information?',
     thanksContact: 'Merci de m\'avoir contacté!',
     thanksEvaluation: 'Merci de m\'avoir soumis la demande d\'évaluation !',
     contactBack: 'Je vous rappele dès que possible !',
@@ -67,7 +67,7 @@ export default {
     envoyerMessage: 'Envoyer message',
 
     details: 'Voir plus',
-    titleEvaluation: 'Vous voulez plus d\'information?',
+    titleEvaluation: 'Quelle est la valeur de ma maison?',
 
     // Form evaluation
     adresse: 'Adresse de votre propriété',
@@ -102,7 +102,7 @@ export default {
     // Footer
     links: 'Liens',
 
-    aboutPageText1: 'Salut ! Je m’appelle Tristan Barbeau, et je suis un jeune individu ambitieux désireux de' +
+    aboutPageText1: 'Bonjour ! Je m’appelle Tristan Barbeau, et je suis un jeune individu ambitieux désireux de' +
         '          laisser une marque dans l’industrie immobilière. J’apporte des perspectives nouvelles' +
         '          et un engagement à offrir un service exceptionnel à mes clients.',
     aboutPageText2: 'Je me suis rapidement intégré dans ce secteur dynamique en raison de ma passion' +

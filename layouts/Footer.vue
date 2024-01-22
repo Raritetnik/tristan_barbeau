@@ -9,12 +9,17 @@
           Tristan<br/>Barbeau
         </h2>
       </div>
-      <div class="border-s-2 border-primary px-6">
+      <div class="border-s-2 border-primary px-6 ">
         <h2 class="text-2xl pb-3 uppercase">Contact</h2>
-        <p>Courriel</p>
-        <p><a href="mailto:tristanbarbeau@gmail.com">tristanbarbeau@gmail.com</a></p>
-        <p>Téléphone</p>
-        <p><a href="tel:5147065569">(514) 706 - 5569</a></p>
+        <span class="flex gap-4 mb-2">
+        <p class="bg-primary transition hover:bg-white rounded p-2 inline-block border-primary" ><a href="mailto:tristanbarbeau@gmail.com">
+          <NuxtImg width="30" height="30" src="https://img.icons8.com/ios/100/000000/new-post--v1.png" alt="new-post--v1"/>
+        </a></p>
+        <p class="bg-primary transition hover:bg-white rounded p-2 inline-block border-primary"><a href="tel:5147065569">
+          <img width="30" height="30" src="https://img.icons8.com/ios/100/000000/phone--v1.png" alt="phone--v1"/>
+        </a></p>
+        </span>
+        <p>Cliqué pour contacter!</p>
       </div>
       <div class="flex flex-col border-s-2 border-primary px-6">
         <h2 class="text-2xl pb-3 uppercase">{{ $t('links') }}</h2>
