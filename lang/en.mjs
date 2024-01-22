@@ -70,7 +70,7 @@ export default {
     parMois: 'Monthly (x12)',
     parDemiMois: 'Bimonthly (x6)',
     parSemaine: 'Per week (x52)',
-    par2Semaine: 'Per 2 weeks (x27)',
+    par2Semaine: 'Per 2 weeks (x26)',
 
     cautionTextCal: `Important: The provided calculations give an approximate result and cannot be considered
         as a reliable resource. To obtain more accurate amounts, please contact the institution

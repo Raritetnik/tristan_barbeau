@@ -46,7 +46,7 @@ export default {
 
     incredProp: 'Proprieté incroyable',
 
-    contactTitle: 'Quel est la valeur de ma maison?',
+    contactTitle: 'Quelle est la valeur de ma maison?',
     thanksContact: 'Merci de m\'avoir contacter!',
     thanksEvaluation: 'Merci de m\'avoir soumettre la demande d\'évaluation !',
     contactBack: 'Je vous rappele dès que possible !',
@@ -84,7 +84,7 @@ export default {
     parMois: 'Mensuelle (x12)',
     parDemiMois: 'Bimensuelle (x6)',
     parSemaine: 'Par semaine (x52)',
-    par2Semaine: 'Par 2 semaines (x27)',
+    par2Semaine: 'Par 2 semaines (x26)',
 
     cautionTextCal: `Important : Les calculs fournis donnent un résultat approximatif et ne peuvent être considérés
       comme une ressource fiable. Pour obtenir des sommes plus précises, veuillez contacter l'institution
