@@ -35,7 +35,7 @@
               <img v-if="house['imageURL'].length >= 2" v-for="image in house['imageURL'].slice(1,5)" loading="lazy" class="border-[1px] border-primary object-cover w-full" :src="image" alt="Secondary image" />
             </div>
           </div>
-          <a class="self-end mt-4" :href="house['CentrisBtnLink']"><Button>Voir sur site Centris</Button></a>
+          <a class="self-end mt-4" :href="house['CentrisBtnLink']" target="_blank"><Button>Voir sur site Centris</Button></a>
         </div>
       </Section>
       <Section class="max-h-none">

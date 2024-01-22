@@ -14,8 +14,8 @@ export default class Mail {
             secure: false,
             service: 'outlook',
             auth: {
-                user: "lesurvivaliste@outlook.com",
-                pass: "T3qqU7HDT",
+                user: "tristan-barbeau@outlook.com",
+                pass: "S1M_w2p^6fLD",
             },
         });
     }
@@ -23,8 +23,8 @@ export default class Mail {
     async sendContact(receive, message, name, phone = '', dispos = '', action) {
         try {
             const info = await this.#transporter.sendMail({
-                from: 'lesurvivaliste@outlook.com',
-                to: 'mkodarenko@gmail.com, clubcluisinebcbg@gmail.com',
+                from: 'tristan-barbeau@outlook.com',
+                to: 'clubcluisinebcbg@gmail.com',
                 subject: 'Contact Site Tristan Barbeau',
                 text: message,
                 html:
@@ -44,8 +44,8 @@ export default class Mail {
     async sendEvaluation(receive, name, phone = '', adresse = '') {
         try {
             const info = await this.#transporter.sendMail({
-                from: 'lesurvivaliste@outlook.com',
-                to: 'mkodarenko@gmail.com',
+                from: 'tristan-barbeau@outlook.com',
+                to: 'clubcluisinebcbg@gmail.com',
                 subject: 'Site Tristan Barbeau - Demande d\'évaluation de propriété',
                 text: adresse,
                 html:
