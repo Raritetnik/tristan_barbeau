@@ -48,7 +48,7 @@ export default {
 
     contactTitle: 'Quelle est la valeur de ma maison?',
     thanksContact: 'Merci de m\'avoir contacté!',
-    thanksEvaluation: 'Merci de m\'avoir soumettre la demande d\'évaluation !',
+    thanksEvaluation: 'Merci de m\'avoir soumis la demande d\'évaluation !',
     contactBack: 'Je vous rappele dès que possible !',
 
     // FORM CONTACT
