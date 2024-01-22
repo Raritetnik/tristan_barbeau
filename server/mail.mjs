@@ -20,11 +20,12 @@ export default class Mail {
         });
     }
 
+    
     async sendContact(receive, message, name, phone = '', dispos = '', action) {
         try {
             const info = await this.#transporter.sendMail({
                 from: 'tristan-barbeau@outlook.com',
-                to: 'clubcluisinebcbg@gmail.com',
+                to: 'tristanbarbeau@gmail.com, clubcluisinebcbg@gmail.com',
                 subject: 'Contact Site Tristan Barbeau',
                 text: message,
                 html:
@@ -45,7 +46,7 @@ export default class Mail {
         try {
             const info = await this.#transporter.sendMail({
                 from: 'tristan-barbeau@outlook.com',
-                to: 'clubcluisinebcbg@gmail.com',
+                to: 'tristanbarbeau@gmail.com, clubcluisinebcbg@gmail.com',
                 subject: 'Site Tristan Barbeau - Demande d\'évaluation de propriété',
                 text: adresse,
                 html:
