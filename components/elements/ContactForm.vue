@@ -103,7 +103,7 @@ const sendMessage = async (e: any) => {
   action = checkedItemsRadio.value.toString();
 
 
-  /*await fetch("https://tristanbarbeau.com/api/contact", {
+  await fetch("https://tristanbarbeau.com/api/contact", {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
@@ -119,7 +119,7 @@ const sendMessage = async (e: any) => {
       action: action,
     })
   }).then(res => res.json())
-      .then(res => console.log(res));*/
+      .then(res => console.log(res));
 }
 </script>
 
