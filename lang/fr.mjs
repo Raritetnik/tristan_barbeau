@@ -47,7 +47,7 @@ export default {
     incredProp: 'Proprieté incroyable',
 
     contactTitle: 'Quelle est la valeur de ma maison?',
-    thanksContact: 'Merci de m\'avoir contacter!',
+    thanksContact: 'Merci de m\'avoir contacté!',
     thanksEvaluation: 'Merci de m\'avoir soumettre la demande d\'évaluation !',
     contactBack: 'Je vous rappele dès que possible !',
 
