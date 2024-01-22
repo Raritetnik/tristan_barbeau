@@ -1,11 +1,11 @@
 <template>
   <div class="p-8 flex flex-col gap-4 w-full">
     <Titre>{{ $t('contactTitle') }}</Titre>
-      <figure :class="{ messageSent: !isSent}" class="flex flex-col justify-center text-center">
-        <h2 class="text-xl">{{ $t('thanksContact') }}</h2>
-        <p>{{ $t('contactBack') }}</p>
+      <figure :class="{ messageSent: !isSent}" class="flex flex-col justify-start text-center min-h-[700px]">
+        <h2 class="text-3xl">{{ $t('thanksContact') }}</h2>
+        <p class="text-xl">{{ $t('contactBack') }}</p>
       </figure>
-      <form v-on:submit.prevent :class="{ messageSent: isSent}" class="formulaire flex flex-col w-full gap-5" netlify>
+      <form v-on:submit.prevent :class="{ messageSent: isSent}" class="formulaire flex flex-col w-full gap-5 min-h-[500px]" netlify>
         <div class="grid gap-6 grid-cols-2">
               <span class="flex flex-col w-full">
                 <label for="prenom"
@@ -103,7 +103,7 @@ const sendMessage = async (e: any) => {
   action = checkedItemsRadio.value.toString();
 
 
-  await fetch("https://tristanbarbeau.com/api/contact", {
+  /*await fetch("https://tristanbarbeau.com/api/contact", {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
@@ -119,7 +119,7 @@ const sendMessage = async (e: any) => {
       action: action,
     })
   }).then(res => res.json())
-      .then(res => console.log(res));
+      .then(res => console.log(res));*/
 }
 </script>
 
