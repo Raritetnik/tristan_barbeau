@@ -92,7 +92,6 @@ const {pending, data: house } = await useLazyAsyncData('house', () => $fetch('ht
 
 const infoToDisplay = [
   {name: "Code Centris", link: "code"},
-  {name: "Style de bâtiment", link: "Type"},
   {name: "Année de construction", link: "BuildYear"},
   {name: "Installations", link: "Facilities"},
   {name: "Stationnement", link: "Parking"},
