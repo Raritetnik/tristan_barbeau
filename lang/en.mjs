@@ -69,7 +69,7 @@ export default {
     frequenceVersements: 'Payment frequency',
     parMois: 'Monthly (x12)',
     parDemiMois: 'Bimonthly (x6)',
-    parSemaine: 'Per week (x54)',
+    parSemaine: 'Per week (x52)',
     par2Semaine: 'Per 2 weeks (x27)',
 
     cautionTextCal: `Important: The provided calculations give an approximate result and cannot be considered

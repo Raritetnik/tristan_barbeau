@@ -83,7 +83,7 @@ export default {
     frequenceVersements: 'Fréquence des versements',
     parMois: 'Mensuelle (x12)',
     parDemiMois: 'Bimensuelle (x6)',
-    parSemaine: 'Par semaine (x54)',
+    parSemaine: 'Par semaine (x52)',
     par2Semaine: 'Par 2 semaines (x27)',
 
     cautionTextCal: `Important : Les calculs fournis donnent un résultat approximatif et ne peuvent être considérés

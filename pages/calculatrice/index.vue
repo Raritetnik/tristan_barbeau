@@ -178,7 +178,7 @@ let dureePaiement = ref(12);
 const submit = (e: any) => {
   dureePaiement.value =
       (freqVersement == '2mois') ? 6 :
-          (freqVersement == 'semaine') ? 54 :
+          (freqVersement == 'semaine') ? 52 :
               (freqVersement == 'bi-semaine') ? 27 : 12;
 
   duree = ammortisAnnees * dureePaiement.value + ammortisMois;
