@@ -1,3 +1,6 @@
+<script>
+
+</script>
 <template>
   <div>
     <div v-if="pending">
@@ -43,8 +46,8 @@
             </span>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-10">
             <span v-for="info in house['Features']">
-              <h3 class="text-xl font-bold pb-2">{{ langStatus(info) }}</h3>
-              <p>{{ info[langStatus(info)] }}</p>
+              <h3 class="text-xl font-bold pb-2">{{ Object.keys(info[locale])[0] }}</h3>
+              <p>{{ info[locale][Object.keys(info[locale])[0]] }}</p>
             </span>
           </div>
         </div>
@@ -78,7 +81,6 @@ useSeoMeta({
 });
 
 const { t, locale } = useI18n();
-console.log((locale.value=='en') ? 1: 0);
 let lightBoxUrl = ref('');
 let isClosed = ref(true);
 const { code } = useRoute().params;
@@ -86,7 +88,7 @@ let isDropped = ref(true);
 let imageIndex = ref(0);
 
 let langStatus = ref((info: any) => {
-  return Object.keys(info)[(locale.value=='en'&&Object.keys(info).length > 1) ? 0: 1]
+  return Object.keys(info)[locale.value];
 });
 
 const {pending, data: house } = await useLazyAsyncData('house', () => $fetch('https://api.npoint.io/d5caf2471c4e98a07de7', {
