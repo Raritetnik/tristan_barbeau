@@ -42,9 +42,9 @@
           <Titre>{{ $t('features') }}</Titre>
             </span>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-10">
-            <span v-for="info in infoToDisplay">
-              <h3 class="text-xl font-bold pb-2">{{ info.name }}</h3>
-              <p>{{ house[info.link] }}</p>
+            <span v-for="info in house['Features']">
+              <h3 class="text-xl font-bold pb-2">{{ Object.keys(info)[(locale.value=='en'&&Object.keys(info).length > 1) ? 1: 0] }}</h3>
+              <p>{{ info[Object.keys(info)[(locale.value=='en'&&Object.keys(info).length > 1) ? 1: 0]] }}</p>
             </span>
           </div>
         </div>
@@ -77,8 +77,10 @@ useSeoMeta({
       "Touts ce qui est associé aux processus d'achat, de vente et de location de biens immobiliers."
 });
 
-var lightBoxUrl = ref('');
-var isClosed = ref(true);
+const { t, locale } = useI18n();
+console.log(locale.value);
+let lightBoxUrl = ref('');
+let isClosed = ref(true);
 const { code } = useRoute().params;
 let isDropped = ref(true);
 let imageIndex = ref(0);
@@ -96,14 +98,14 @@ const {pending, data: house } = await useLazyAsyncData('house', () => $fetch('ht
 }));
 
 
-const infoToDisplay = [
+/*const infoToDisplay = [
   {name: "Code Centris", link: "code"},
   {name: "Année de construction", link: "BuildYear"},
   {name: "Installations", link: "Facilities"},
   {name: "Stationnement", link: "Parking"},
   {name: "Pièces", link: "Rooms"},
   {name: "Chambres", link: "Chambres"},
-];
+];*/
 
 const toNextImage =() => {
   let currentIndex = house.value.imageURL.indexOf(lightBoxUrl.value);
