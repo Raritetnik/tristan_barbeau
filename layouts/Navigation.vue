@@ -26,8 +26,8 @@ let local = useI18n();
         </svg>
       </button>
       </span>
-      <h2 class="hidden lg:inline-block bg-white rounded-full py-2 px-6 lg:me-4 border-black border-2 text-black text-lg lg:text-xl">
-        (514) 706 5569</h2>
+      <a href="tel:5147065569" class="hidden lg:inline-block bg-white rounded-full py-2 px-6 lg:me-4 border-black border-2 text-black text-lg lg:text-xl">
+        (514) 706 5569</a>
     </div>
     <!-- Menu Bar -->
     <Menu v-model:close-menu="closeMenu" v-model:is-closed="isClosed"></Menu>
