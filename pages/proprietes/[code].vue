@@ -50,7 +50,7 @@
               <p>{{ info[locale][Object.keys(info[locale])[0]] }}</p>
             </span>
           </div>
-          <div class="mt-6">
+          <div v-if="house['Description']" class="mt-4">
             <h3 class="text-xl font-bold pb-2">Description:</h3>
             <p>{{ house['Description'] }}</p>
           </div>
