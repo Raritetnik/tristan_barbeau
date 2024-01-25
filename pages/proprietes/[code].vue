@@ -50,6 +50,10 @@
               <p>{{ info[locale][Object.keys(info[locale])[0]] }}</p>
             </span>
           </div>
+          <div class="mt-6">
+            <h3 class="text-xl font-bold pb-2">Description:</h3>
+            <p>{{ house['Description'] }}</p>
+          </div>
         </div>
       </Section>
 
@@ -103,15 +107,6 @@ const {pending, data: house } = await useLazyAsyncData('house', () => $fetch('ht
   return result[0]
 }));
 
-
-/*const infoToDisplay = [
-  {name: "Code Centris", link: "code"},
-  {name: "Année de construction", link: "BuildYear"},
-  {name: "Installations", link: "Facilities"},
-  {name: "Stationnement", link: "Parking"},
-  {name: "Pièces", link: "Rooms"},
-  {name: "Chambres", link: "Chambres"},
-];*/
 
 const toNextImage =() => {
   let currentIndex = house.value.imageURL.indexOf(lightBoxUrl.value);
