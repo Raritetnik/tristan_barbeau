@@ -58,7 +58,7 @@
       </Section>
 
       <section :class="{close: isClosed}" class="fixed top-0 left-0 z-[3] w-[100vw] h-[100vh] bg-[rgba(0,0,0,.6)] flex items-center justify-center" >
-        <div class="bg-white p-5 lg:p-8 flex flex-col relative pb-28 pt-10 lg:py-8 lg:px-28">
+        <div class="bg-white p-5 lg:p-8 flex items-center flex-col relative pb-28 pt-10 lg:py-8 lg:px-28 xl:w-[1400px] lg:w-[1200px] md:w-[800px]">
           <img @click="toPrevImage()" class="absolute left-2 bottom-0 lg:top-1/2 lg:-translate-y-1/2" width="100" height="100" src="https://img.icons8.com/ios/100/circled-left-2.png" alt="circled-left-2"/>
           <button class="absolute right-0 top-0" @click="closeLightBox" >
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 30 30">
