@@ -20,7 +20,7 @@
             :placeholder="[250, 250]"
         />-->
       </div>
-      <div class="w-full">
+      <div class="w-full hidden md:block">
         <NuxtImg
             alt="Banniere maison image"
             class="h-[500px] lg:h-[800px] w-full object-cover"
