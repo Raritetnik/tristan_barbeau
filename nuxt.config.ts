@@ -17,7 +17,7 @@ export default defineNuxtConfig({
       '@averjs/nuxt-compression',
       'nuxt-simple-sitemap',
       '@nuxtjs/i18n',
-      'nuxt3-meta-pixel',
+      'nuxt3-meta-pixel'
     ],
     facebook: {
         /* module options */
