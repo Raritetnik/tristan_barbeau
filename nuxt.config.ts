@@ -24,7 +24,7 @@ export default defineNuxtConfig({
         track: 'PageView',
         pixelId: '2144642769208443',
         autoPageView: true,
-        disabled: false,
+        disabled: false
     },
     i18n: {
         vueI18n: './i18n.config.ts',

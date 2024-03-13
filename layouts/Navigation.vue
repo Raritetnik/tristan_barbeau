@@ -10,6 +10,7 @@ let local = useI18n();
 </script>
 <template>
   <header class="navBar w-full py-2 z-[2] px-1 md:px-2 lg:px-6 text-white border-b-2 border-primary overflow-hidden">
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2144642769208443&ev=PageView&noscript=1" />
     <div class="mx-auto flex justify-between max-w-[1920px] items-center py-2 px-2 relative">
       <h2 class="decor-text text-3xl lg:text-4xl inline-flex items-center">
         <!--<NuxtImg alt="R.I" class="h-[70px] w-[70px] aspect-square" height="40" sizes="50px md:70px"
