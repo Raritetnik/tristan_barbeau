@@ -16,7 +16,16 @@ export default defineNuxtConfig({
       '@nuxt-modules/compression',
       '@averjs/nuxt-compression',
       'nuxt-simple-sitemap',
-      '@nuxtjs/i18n'],
+      '@nuxtjs/i18n',
+      'nuxt3-meta-pixel',
+    ],
+    facebook: {
+        /* module options */
+        track: 'PageView',
+        pixelId: '2144642769208443',
+        autoPageView: true,
+        disabled: false,
+    },
     i18n: {
         vueI18n: './i18n.config.ts',
 

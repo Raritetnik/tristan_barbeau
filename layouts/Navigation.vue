@@ -2,6 +2,9 @@
 
 import Menu from "~/layouts/Menu.vue";
 import Button from "~/components/elements/Button.vue";
+import { useNuxtApp } from '#app';
+const nuxtApp = useNuxtApp()
+nuxtApp.$fb.enable()
 
 let local = useI18n();
 </script>
