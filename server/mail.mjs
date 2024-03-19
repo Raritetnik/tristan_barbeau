@@ -10,7 +10,7 @@ export default class Mail {
 
     #getTransporter() {
         return nodemailer.createTransport({
-            host: "smtp.example.com",
+            host: "smtp.sendgrid.net",
             port: 587,
             secure: false,
             service: 'outlook',
