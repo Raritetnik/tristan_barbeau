@@ -9,13 +9,13 @@ export default class Mail {
 
     #getTransporter() {
         return nodemailer.createTransport({
-            host: "smtp.example.com",
+            host: "smtp.sendgrid.net",
             port: 587,
             secure: false,
-            service: 'outlook',
+            service: 'sendgrid',
             auth: {
-                user: "tristan-barbeau@outlook.com",
-                pass: "S1M_w2p^6fLD",
+                user: "apikey",
+                pass: "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",
             },
         });
     }
