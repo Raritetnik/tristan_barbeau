@@ -30,6 +30,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@netlify/plugin-emails": "^1.1.1",
     "@nuxt-modules/compression": "^0.1.0",
     "@nuxt/content": "^2.9.0",
     "@nuxtjs/axios": "^5.13.6",
