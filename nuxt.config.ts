@@ -8,6 +8,8 @@ export default defineNuxtConfig({
       apiSecret: process.env.API_URL, // can be overridden by NUXT_API_SECRET environment variable
       public: {
           apiBase: process.env.API_URL, // can be overridden by NUXT_PUBLIC_API_BASE environment variable
+          mailEmail: process.env.MAIL_EMAIL,
+          mailPass: process.env.MAIL_PASSWORD,
       }
     },
   postcss: {

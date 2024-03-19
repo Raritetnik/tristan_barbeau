@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer';
+const config = useRuntimeConfig()
 
 export default class Mail {
     #transporter = null;
@@ -14,8 +15,8 @@ export default class Mail {
             secure: false,
             service: 'outlook',
             auth: {
-                user: "tristan-barbeau@outlook.com",
-                pass: "S1M_w2p^6fLD",
+                user: config.public.mailEmail,
+                pass: config.public.mailPass,
             },
         });
     }
