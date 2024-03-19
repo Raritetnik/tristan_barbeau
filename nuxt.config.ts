@@ -4,6 +4,12 @@
 // @ts-ignore
 export default defineNuxtConfig({
   devtools: {enabled: true},
+  runtimeConfig: {
+      apiSecret: process.env.API_URL, // can be overridden by NUXT_API_SECRET environment variable
+      public: {
+          apiBase: process.env.API_URL, // can be overridden by NUXT_PUBLIC_API_BASE environment variable
+      }
+    },
   postcss: {
       plugins: {
           tailwindcss: {},
@@ -17,7 +23,7 @@ export default defineNuxtConfig({
       '@averjs/nuxt-compression',
       'nuxt-simple-sitemap',
       '@nuxtjs/i18n',
-      'nuxt3-meta-pixel'
+      'nuxt3-meta-pixel',
     ],
     facebook: {
         /* module options */

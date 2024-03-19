@@ -124,6 +124,9 @@ import Button from "~/components/elements/Button.vue";
 import bgImage from "~/assets/images/Maison_de_bord.webp";
 import ContactForm from "~/components/elements/ContactForm.vue";
 const { t, locale } = useI18n();
+const config = useRuntimeConfig()
+console.log("DOTENV");
+console.log(config.public.apiBase);
 
 useSeoMeta({
   title: 'Realtor professionnel: estimation, vente | Tristan Barbeau',
