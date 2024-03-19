@@ -1,5 +1,4 @@
 import nodemailer from 'nodemailer';
-const config = useRuntimeConfig()
 
 export default class Mail {
     #transporter = null;
@@ -13,10 +12,10 @@ export default class Mail {
             host: "smtp.sendgrid.net",
             port: 587,
             secure: false,
-            service: 'outlook',
+            service: 'sendgrid',
             auth: {
-                user: config.public.mailEmail,
-                pass: config.public.mailPass,
+                user: process.env.MAIL_EMAIL,
+                pass: process.env.MAIL_PASSWORD,
             },
         });
     }
