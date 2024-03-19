@@ -31,17 +31,19 @@
       </div>
       <div class="border-s-2 border-primary flex flex-col gap-4 px-6">
         <div class="inline-flex flex-col justify-center items-center max-w-max">
-          <NuxtImg alt="Propio Direct" height="120" src="assets/images/duproprio_logo-clr.png" class="mb-2" width="100px"/>
+          <NuxtLink to="https://propriodirect.com/tristan-barbeau/">
+            <NuxtImg alt="Propio Direct" height="120" src="assets/images/duproprio_logo-clr.png" class="mb-2" width="100px"/>
+          </NuxtLink>
           <div class="flex gap-2">
-            <NuxtLink to="#">
+            <NuxtLink to="https://www.facebook.com/profile.php?id=100095130374733&locale=fr_CA">
               <NuxtImg alt="FB" height="35" src="assets/images/facebook_w.png" width="35"/>
             </NuxtLink>
-            <NuxtLink to="#">
+            <!--<NuxtLink to="#">
               <NuxtImg alt="Instag" height="35" src="assets/images/instagram_w.png" width="35"/>
             </NuxtLink>
             <NuxtLink to="#">
               <NuxtImg alt="LinkIn" height="35" src="assets/images/linkedin_w.png" width="35"/>
-            </NuxtLink>
+            </NuxtLink>-->
           </div>
         </div>
       </div>
